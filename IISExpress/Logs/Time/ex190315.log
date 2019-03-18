@@ -1,0 +1,455 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 13:03:55
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 13:03:55 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 13510
+2019-03-15 13:04:00 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 13634
+2019-03-15 13:04:05 ::1 GET /EmployeeTimes - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 804
+2019-03-15 13:04:07 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 507
+2019-03-15 13:04:12 ::1 GET /FixErrors/Create/41 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 999
+2019-03-15 13:04:17 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 234
+2019-03-15 13:04:21 ::1 GET /ErrorTrackers/Index showAll=NO 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 270
+2019-03-15 13:04:22 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=NO 200 0 0 246
+2019-03-15 13:04:24 ::1 GET /ErrorTrackers/Index showAll=NO 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 234
+2019-03-15 13:04:33 ::1 GET /ErrorTrackers StartDate=&EndDate=&ProjectName=&CustomerName=&UserName=&StatusNow=Pending&ImportanceNow=+ 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=NO 200 0 0 269
+2019-03-15 13:04:35 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers?StartDate=&EndDate=&ProjectName=&CustomerName=&UserName=&StatusNow=Pending&ImportanceNow=+ 200 0 0 284
+2019-03-15 13:04:40 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 744
+2019-03-15 13:04:42 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 248
+2019-03-15 13:04:45 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 987
+2019-03-15 13:04:49 ::1 GET /ErrorTrackers StartDate=&EndDate=&ProjectName=&CustomerName=&UserName=&StatusNow=Open&ImportanceNow=+ 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 413
+2019-03-15 13:04:52 ::1 GET /ErrorTrackers StartDate=&EndDate=&ProjectName=&CustomerName=&UserName=&StatusNow=Corrected&ImportanceNow=+ 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers?StartDate=&EndDate=&ProjectName=&CustomerName=&UserName=&StatusNow=Open&ImportanceNow=+ 200 0 0 306
+2019-03-15 13:04:56 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers?StartDate=&EndDate=&ProjectName=&CustomerName=&UserName=&StatusNow=Corrected&ImportanceNow=+ 200 0 0 256
+2019-03-15 13:05:15 ::1 GET /ErrorTrackers/Edit/32 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 918
+2019-03-15 13:05:21 ::1 POST /ErrorTrackers/Edit/32 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/32 500 0 0 2627
+2019-03-15 13:05:34 ::1 GET /ErrorTrackers/Edit/32 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 963
+2019-03-15 13:05:41 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers?StartDate=&EndDate=&ProjectName=&CustomerName=&UserName=&StatusNow=Corrected&ImportanceNow=+ 200 0 0 281
+2019-03-15 13:05:45 ::1 GET /ErrorTrackers/Delete/32 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 371
+2019-03-15 13:05:46 ::1 POST /ErrorTrackers/Delete/32 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Delete/32 302 0 0 522
+2019-03-15 13:05:46 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Delete/32 200 0 0 281
+2019-03-15 13:05:50 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 292
+2019-03-15 13:05:54 ::1 GET /ErrorTrackers/Edit/41 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 787
+2019-03-15 13:06:02 ::1 POST /ErrorTrackers/Edit/41 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/41 500 0 0 2027
+2019-03-15 13:08:28 ::1 GET /ErrorTrackers/Edit/41 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1242
+2019-03-15 13:08:36 ::1 POST /ErrorTrackers/Edit/41 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/41 500 0 0 2359
+2019-03-15 13:08:51 ::1 GET /ErrorTrackers/Edit/41 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1039
+2019-03-15 13:09:38 ::1 POST /ErrorTrackers/Edit/41 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/41 500 0 0 2026
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 13:11:03
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 13:11:03 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 10455
+2019-03-15 13:11:04 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 8077
+2019-03-15 13:11:09 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 2212
+2019-03-15 13:11:14 ::1 GET /ErrorTrackers/Edit/38 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1713
+2019-03-15 13:11:19 ::1 POST /ErrorTrackers/Edit/38 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/38 500 0 0 2717
+2019-03-15 13:11:27 ::1 GET /ErrorTrackers/Edit/38 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 895
+2019-03-15 13:17:42 ::1 POST /ErrorTrackers/Edit/38 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/38 500 0 0 2117
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 13:23:12
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 13:23:12 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 10163
+2019-03-15 13:23:13 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 8226
+2019-03-15 13:23:29 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 2098
+2019-03-15 13:23:40 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1211
+2019-03-15 13:23:42 ::1 POST /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 500 0 0 355
+2019-03-15 13:24:39 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 10503
+2019-03-15 13:24:41 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 9369
+2019-03-15 13:24:44 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 2028
+2019-03-15 13:24:48 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1294
+2019-03-15 13:25:01 ::1 POST /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 500 0 0 6930
+2019-03-15 13:25:16 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 768
+2019-03-15 13:25:51 ::1 POST /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 400 0 64 34328
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 13:38:37
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 13:38:37 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 13400
+2019-03-15 13:38:41 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 14493
+2019-03-15 13:38:54 ::1 GET /EmployeeTimes - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 893
+2019-03-15 13:39:06 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 489
+2019-03-15 13:39:14 ::1 GET /FixErrors/Create/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1059
+2019-03-15 13:39:16 ::1 POST /FixErrors/Create/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/FixErrors/Create/34 302 0 0 686
+2019-03-15 13:39:16 ::1 GET /FixErrors/Index/0 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/FixErrors/Create/34 200 0 0 294
+2019-03-15 13:39:20 ::1 GET /FixErrors/Create/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 821
+2019-03-15 13:39:21 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 236
+2019-03-15 13:39:25 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 889
+2019-03-15 13:39:40 ::1 POST /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 500 0 0 2345
+2019-03-15 13:39:49 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 797
+2019-03-15 13:39:51 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 337
+2019-03-15 13:39:55 ::1 GET /ErrorTrackers/Index showAll=NO 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 247
+2019-03-15 13:39:56 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=NO 200 0 0 278
+2019-03-15 13:40:01 ::1 GET /ErrorTrackers/Delete/41 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 349
+2019-03-15 13:40:02 ::1 POST /ErrorTrackers/Delete/41 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Delete/41 302 0 0 551
+2019-03-15 13:40:02 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Delete/41 200 0 0 245
+2019-03-15 13:40:06 ::1 GET /ErrorTrackers/Details/40 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 571
+2019-03-15 13:40:08 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Delete/41 200 0 0 279
+2019-03-15 13:41:37 ::1 GET /ErrorTrackers/Edit/38 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 800
+2019-03-15 13:41:41 ::1 POST /ErrorTrackers/Edit/38 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/38 500 0 0 1942
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 13:44:04
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 13:44:04 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 11174
+2019-03-15 13:44:05 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 9076
+2019-03-15 13:53:08 ::1 GET /EmployeeTimes - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 2096
+2019-03-15 13:53:10 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 514
+2019-03-15 13:53:20 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 286
+2019-03-15 13:53:24 ::1 GET /EmployeeTimes - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 727
+2019-03-15 13:53:24 ::1 GET /Roles - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 400 0 64 1727
+2019-03-15 14:07:55 ::1 GET /EmployeeTimes - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 3861
+2019-03-15 14:07:55 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 65
+2019-03-15 14:08:32 ::1 GET /EmployeeTimes - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 436
+2019-03-15 14:08:32 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 327
+2019-03-15 14:08:46 ::1 GET /Projects - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1454
+2019-03-15 14:20:54 ::1 GET /EmployeeTimes - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/Projects 200 0 0 1189
+2019-03-15 14:20:54 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 238
+2019-03-15 14:20:58 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 264
+2019-03-15 14:21:24 ::1 GET /ErrorTrackers/Edit/42 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1041
+2019-03-15 14:21:40 ::1 POST /ErrorTrackers/Edit/42 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/42 500 0 0 2446
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 14:32:13
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 14:32:13 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 13364
+2019-03-15 14:32:14 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 10427
+2019-03-15 14:38:44 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 2323
+2019-03-15 14:42:05 ::1 GET /ErrorTrackers/Edit/42 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 2435
+2019-03-15 14:42:08 ::1 POST /ErrorTrackers/Edit/42 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/42 500 0 0 731
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 14:43:32
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 14:43:32 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 16190
+2019-03-15 14:43:35 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 13833
+2019-03-15 14:44:00 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 2319
+2019-03-15 14:44:03 ::1 GET /ErrorTrackers/Edit/40 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1253
+2019-03-15 14:44:06 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/40 200 0 0 265
+2019-03-15 14:44:10 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 270
+2019-03-15 14:44:12 ::1 GET /ErrorTrackers/Edit/40 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 776
+2019-03-15 14:44:16 ::1 POST /ErrorTrackers/Edit/40 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/40 500 0 0 2446
+2019-03-15 14:44:21 ::1 GET /ErrorTrackers/Edit/40 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 762
+2019-03-15 14:44:30 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 405
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 14:46:16
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 14:46:16 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 11743
+2019-03-15 14:46:17 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 9254
+2019-03-15 14:46:24 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 2176
+2019-03-15 14:46:27 ::1 GET /ErrorTrackers/Edit/42 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1214
+2019-03-15 14:46:31 ::1 POST /ErrorTrackers/Edit/42 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/42 500 0 0 742
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 14:50:12
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 14:50:12 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 14519
+2019-03-15 14:50:14 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 12711
+2019-03-15 14:50:28 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 2478
+2019-03-15 14:50:31 ::1 GET /ErrorTrackers/Edit/40 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1297
+2019-03-15 14:50:34 ::1 POST /ErrorTrackers/Edit/40 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/40 500 0 0 720
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 14:54:15
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 14:54:15 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 13669
+2019-03-15 14:54:16 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 11290
+2019-03-15 14:54:59 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 2317
+2019-03-15 14:55:02 ::1 GET /ErrorTrackers/Edit/42 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1356
+2019-03-15 14:55:03 ::1 POST /ErrorTrackers/Edit/42 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/42 500 0 0 416
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 14:57:29
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 14:57:29 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 16574
+2019-03-15 14:57:31 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 12387
+2019-03-15 14:57:35 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 2414
+2019-03-15 14:57:45 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1210
+2019-03-15 14:57:47 ::1 POST /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 500 0 0 381
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 14:59:45
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 14:59:45 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 13754
+2019-03-15 14:59:47 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 10525
+2019-03-15 14:59:55 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 2133
+2019-03-15 15:00:00 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1508
+2019-03-15 15:00:48 ::1 POST /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 400 0 64 46552
+2019-03-15 15:00:48 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 400 0 64 18209
+2019-03-15 15:00:48 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 400 0 64 16221
+2019-03-15 15:00:48 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 4513
+2019-03-15 15:00:48 ::1 POST /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 400 0 64 13273
+2019-03-15 15:00:48 ::1 POST /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 400 0 64 32051
+2019-03-15 15:01:01 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 346
+2019-03-15 15:01:01 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 67
+2019-03-15 15:01:07 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 764
+2019-03-15 15:03:39 ::1 POST /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 500 0 0 150224
+2019-03-15 15:15:19 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 14964
+2019-03-15 15:15:25 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 14654
+2019-03-15 15:16:42 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 950
+2019-03-15 15:16:45 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1196
+2019-03-15 15:16:48 ::1 POST /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 500 0 0 914
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 15:18:47
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 15:18:47 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 11089
+2019-03-15 15:18:48 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 8674
+2019-03-15 15:18:52 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 2084
+2019-03-15 15:18:55 ::1 GET /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1299
+2019-03-15 15:19:28 ::1 POST /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/39 400 0 64 30308
+2019-03-15 15:19:28 ::1 POST /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/39 500 0 0 1937
+2019-03-15 15:19:47 ::1 GET /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 784
+2019-03-15 15:21:01 ::1 GET /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 4576
+2019-03-15 15:21:01 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/39 200 0 0 56
+2019-03-15 15:21:51 ::1 GET /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1543
+2019-03-15 15:21:51 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/39 200 0 0 32
+2019-03-15 15:21:55 ::1 GET /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1038
+2019-03-15 15:21:55 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/39 200 0 0 26
+2019-03-15 15:22:57 ::1 GET /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1537
+2019-03-15 15:22:57 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/39 200 0 0 65
+2019-03-15 15:23:38 ::1 GET /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1418
+2019-03-15 15:23:38 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/39 200 0 0 57
+2019-03-15 15:23:55 ::1 GET /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1349
+2019-03-15 15:23:55 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/39 200 0 0 140
+2019-03-15 15:24:26 ::1 GET /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1478
+2019-03-15 15:24:26 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/39 200 0 0 115
+2019-03-15 15:25:20 ::1 GET /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1385
+2019-03-15 15:25:20 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/39 200 0 0 68
+2019-03-15 15:26:19 ::1 GET /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 874
+2019-03-15 15:26:19 ::1 GET /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 400 0 64 1887
+2019-03-15 15:26:19 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/39 200 0 0 196
+2019-03-15 15:26:30 ::1 POST /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/39 500 0 0 3142
+2019-03-15 15:26:33 ::1 GET /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1116
+2019-03-15 15:27:44 ::1 POST /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/39 502 3 12030 60663
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 15:28:04
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 15:28:04 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 9953
+2019-03-15 15:28:05 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 9210
+2019-03-15 15:28:38 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 2047
+2019-03-15 15:28:41 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1174
+2019-03-15 15:28:55 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 762
+2019-03-15 15:28:55 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 200 0 0 61
+2019-03-15 15:28:57 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 400 0 64 765
+2019-03-15 15:28:57 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1153
+2019-03-15 15:28:58 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 200 0 0 47
+2019-03-15 15:29:25 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 502 3 12030 12299
+2019-03-15 15:30:25 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 9595
+2019-03-15 15:30:27 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 9000
+2019-03-15 15:30:33 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 2073
+2019-03-15 15:30:53 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 6472
+2019-03-15 15:30:53 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 400 0 64 14869
+2019-03-15 15:32:40 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 289
+2019-03-15 15:33:08 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 753
+2019-03-15 15:33:25 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 270
+2019-03-15 15:33:28 ::1 GET /ErrorTrackers/Details/38 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 603
+2019-03-15 15:33:30 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 291
+2019-03-15 15:33:33 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 783
+2019-03-15 15:35:44 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 4538
+2019-03-15 15:35:44 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 200 0 0 119
+2019-03-15 15:36:04 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1518
+2019-03-15 15:36:04 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 200 0 0 69
+2019-03-15 15:36:23 ::1 POST /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 400 0 64 12069
+2019-03-15 15:36:23 ::1 POST /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 500 0 0 7383
+2019-03-15 15:38:11 ::1 POST /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 500 0 0 1996
+2019-03-15 15:38:11 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 200 0 0 62
+2019-03-15 15:38:13 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1730
+2019-03-15 15:38:54 ::1 POST /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 500 0 0 1919
+2019-03-15 15:39:37 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 2356
+2019-03-15 15:39:37 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 200 0 0 83
+2019-03-15 15:39:37 ::1 POST /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 400 0 64 24034
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 16:17:16
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 16:17:16 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 3261
+2019-03-15 16:17:16 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 200 0 0 29
+2019-03-15 16:18:45 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1640
+2019-03-15 16:18:45 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 200 0 0 25
+2019-03-15 16:18:50 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1266
+2019-03-15 16:18:50 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 200 0 0 22
+2019-03-15 16:19:05 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1438
+2019-03-15 16:19:05 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 200 0 0 54
+2019-03-15 16:20:02 ::1 GET /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1872
+2019-03-15 16:20:02 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 200 0 0 22
+2019-03-15 16:20:10 ::1 POST /ErrorTrackers/Edit/34 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 302 0 0 5593
+2019-03-15 16:20:10 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/34 200 0 0 224
+2019-03-15 16:20:14 ::1 GET /ErrorTrackers/Edit/42 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 728
+2019-03-15 16:20:19 ::1 POST /ErrorTrackers/Edit/42 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/42 302 0 0 3529
+2019-03-15 16:20:19 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/42 200 0 0 275
+2019-03-15 16:20:23 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 268
+2019-03-15 16:20:26 ::1 GET /ErrorTrackers/Create - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 683
+2019-03-15 16:20:31 ::1 GET /EmployeeTimes/GetProjects CustomersID=20 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 200 0 0 473
+2019-03-15 16:20:57 ::1 POST /ErrorTrackers/Create - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 302 0 0 436
+2019-03-15 16:20:57 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 200 0 0 247
+2019-03-15 16:21:01 ::1 GET /ErrorTrackers/Create - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 613
+2019-03-15 16:21:05 ::1 GET /EmployeeTimes/GetProjects CustomersID=20 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 200 0 0 245
+2019-03-15 16:21:21 ::1 POST /ErrorTrackers/Create - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 302 0 0 441
+2019-03-15 16:21:21 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 200 0 0 298
+2019-03-15 16:21:23 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 261
+2019-03-15 16:21:29 ::1 GET /ErrorTrackers/Index showAll=NO 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 264
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 16:22:08
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 16:22:08 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 13182
+2019-03-15 16:22:09 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 11680
+2019-03-15 16:27:58 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 1908
+2019-03-15 16:28:02 ::1 GET /ErrorTrackers/Edit/38 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1216
+2019-03-15 16:28:05 ::1 POST /ErrorTrackers/Edit/38 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/38 302 0 0 519
+2019-03-15 16:28:05 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/38 200 0 0 246
+2019-03-15 16:28:21 ::1 GET /ErrorTrackers/Edit/44 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 908
+2019-03-15 16:28:25 ::1 POST /ErrorTrackers/Edit/44 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/44 302 0 0 376
+2019-03-15 16:28:25 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/44 200 0 0 231
+2019-03-15 16:28:28 ::1 GET /ErrorTrackers/Index showAll=NO 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 262
+2019-03-15 16:28:30 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=NO 200 0 0 259
+2019-03-15 16:28:50 ::1 GET /ErrorTrackers/Edit/35 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 794
+2019-03-15 16:29:51 ::1 GET /ErrorTrackers/Edit/35 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 3568
+2019-03-15 16:29:51 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/35 200 0 0 62
+2019-03-15 16:30:05 ::1 GET /ErrorTrackers/Edit/35 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1352
+2019-03-15 16:30:05 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/35 200 0 0 32
+2019-03-15 16:30:24 ::1 GET /ErrorTrackers/Edit/35 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1444
+2019-03-15 16:30:24 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/35 200 0 0 28
+2019-03-15 16:30:33 ::1 GET /ErrorTrackers/Edit/35 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1140
+2019-03-15 16:30:33 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/35 200 0 0 36
+2019-03-15 16:31:23 ::1 GET /ErrorTrackers/Edit/35 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1189
+2019-03-15 16:31:23 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/35 200 0 0 56
+2019-03-15 16:31:26 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=NO 200 0 0 256
+2019-03-15 16:31:33 ::1 GET /ErrorTrackers/Edit/35 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 565
+2019-03-15 16:31:56 ::1 GET /ErrorTrackers/Edit/35 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1190
+2019-03-15 16:31:56 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/35 200 0 0 41
+2019-03-15 16:32:01 ::1 GET /ErrorTrackers/Edit/35 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1297
+2019-03-15 16:32:01 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/35 200 0 0 27
+2019-03-15 16:32:32 ::1 GET /ErrorTrackers/Edit/35 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1193
+2019-03-15 16:32:32 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/35 200 0 0 28
+2019-03-15 16:33:24 ::1 GET /ErrorTrackers/Edit/35 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1568
+2019-03-15 16:33:24 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/35 200 0 0 48
+2019-03-15 16:33:41 ::1 GET /ErrorTrackers/Edit/35 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1347
+2019-03-15 16:33:41 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/35 200 0 0 19
+2019-03-15 16:34:27 ::1 GET /ErrorTrackers/Edit/35 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1423
+2019-03-15 16:34:27 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/35 200 0 0 20
+2019-03-15 16:34:55 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/35 200 0 0 391
+2019-03-15 16:34:58 ::1 GET /ErrorTrackers/Edit/43 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1413
+2019-03-15 16:36:08 ::1 GET /ErrorTrackers/Edit/43 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1560
+2019-03-15 16:36:08 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/43 200 0 0 64
+2019-03-15 16:36:48 ::1 GET /ErrorTrackers/Edit/43 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1562
+2019-03-15 16:36:48 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/43 200 0 0 26
+2019-03-15 16:37:21 ::1 GET /ErrorTrackers/Edit/43 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1374
+2019-03-15 16:37:21 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/43 200 0 0 26
+2019-03-15 16:38:29 ::1 GET /ErrorTrackers/Edit/43 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1548
+2019-03-15 16:38:29 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/43 200 0 0 33
+2019-03-15 16:39:00 ::1 GET /ErrorTrackers/Edit/43 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1595
+2019-03-15 16:39:00 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/43 200 0 0 85
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 16:39:51
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 16:39:51 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 7938
+2019-03-15 16:39:52 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 6764
+2019-03-15 16:47:02 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 2212
+2019-03-15 16:47:07 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 286
+2019-03-15 16:47:09 ::1 GET /ErrorTrackers/Index showAll=NO 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 301
+2019-03-15 16:47:12 ::1 GET /ErrorTrackers/Create - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=NO 200 0 0 743
+2019-03-15 16:47:17 ::1 GET /EmployeeTimes/GetProjects CustomersID=19 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 200 0 0 1637
+2019-03-15 16:47:26 ::1 POST /ErrorTrackers/Create - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 302 0 0 587
+2019-03-15 16:47:26 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 200 0 0 265
+2019-03-15 16:47:29 ::1 GET /ErrorTrackers/Create - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 621
+2019-03-15 16:47:34 ::1 GET /EmployeeTimes/GetProjects CustomersID=23 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 200 0 0 335
+2019-03-15 16:47:45 ::1 POST /ErrorTrackers/Create - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 302 0 0 434
+2019-03-15 16:47:45 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 200 0 0 263
+2019-03-15 16:47:51 ::1 GET /ErrorTrackers/Create - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 616
+2019-03-15 16:47:54 ::1 GET /EmployeeTimes/GetProjects CustomersID=24 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 200 0 0 234
+2019-03-15 16:48:03 ::1 POST /ErrorTrackers/Create - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 302 0 0 369
+2019-03-15 16:48:03 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 200 0 0 251
+2019-03-15 16:48:08 ::1 GET /ErrorTrackers/Create - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 853
+2019-03-15 16:48:12 ::1 GET /EmployeeTimes/GetProjects CustomersID=19 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 200 0 0 260
+2019-03-15 16:48:24 ::1 POST /ErrorTrackers/Create - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 302 0 0 521
+2019-03-15 16:48:24 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 200 0 0 355
+2019-03-15 16:48:29 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 449
+2019-03-15 16:48:35 ::1 GET /ErrorTrackers/Edit/48 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 4106
+2019-03-15 16:48:38 ::1 GET /ErrorTrackers/Index showAll=YES 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 507
+2019-03-15 16:48:44 ::1 GET /ErrorTrackers/Edit/48 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 2759
+2019-03-15 16:49:45 ::1 GET /ErrorTrackers/Edit/48 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 3944
+2019-03-15 16:49:45 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/48 200 0 0 42
+2019-03-15 16:50:31 ::1 GET /ErrorTrackers/Edit/48 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1255
+2019-03-15 16:50:31 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/48 200 0 0 38
+2019-03-15 16:52:08 ::1 GET /ErrorTrackers/Edit/48 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Index?showAll=YES 200 0 0 1409
+2019-03-15 16:52:08 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/48 200 0 0 28
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 16:54:10
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 16:54:10 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8426
+2019-03-15 16:54:11 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 7530
+2019-03-15 16:54:38 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 4946
+2019-03-15 16:54:55 ::1 GET /ErrorTrackers/Create - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 980
+2019-03-15 16:55:04 ::1 GET /EmployeeTimes/GetProjects CustomersID=21 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 200 0 0 334
+2019-03-15 16:55:17 ::1 POST /ErrorTrackers/Create - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 302 0 0 713
+2019-03-15 16:55:17 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 200 0 0 294
+2019-03-15 16:55:26 ::1 GET /FixErrors/Create/49 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 927
+2019-03-15 16:55:31 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Create 200 0 0 249
+2019-03-15 16:55:36 ::1 GET /ErrorTrackers/Edit/49 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 796
+2019-03-15 16:56:04 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/49 200 0 0 357
+2019-03-15 16:56:09 ::1 GET /EmployeeTimes - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 583
+2019-03-15 16:56:12 ::1 GET /EmployeeTimes/Edit/113 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 735
+2019-03-15 16:56:14 ::1 GET /EmployeeTimes - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 412
+2019-03-15 16:56:17 ::1 GET /EmployeeTimes/Edit/114 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 642
+2019-03-15 16:56:19 ::1 GET /EmployeeTimes - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 409
+2019-03-15 16:56:19 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/49 200 0 0 240
+2019-03-15 16:56:22 ::1 GET /EmployeeTimes - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 439
+2019-03-15 16:56:24 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 327
+2019-03-15 16:56:28 ::1 GET /ErrorTrackers/Edit/48 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 643
+2019-03-15 16:56:31 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 275
+2019-03-15 16:56:36 ::1 GET /FixErrors/Create/48 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 763
+2019-03-15 16:56:40 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 252
+2019-03-15 16:56:44 ::1 GET /EmployeeTimes - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 467
+2019-03-15 16:57:42 ::1 GET /EmployeeTimes - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 636
+2019-03-15 16:57:42 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 74
+2019-03-15 16:57:44 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 352
+2019-03-15 16:57:49 ::1 GET /ErrorTrackers/Edit/39 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 3608
+2019-03-15 16:57:54 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 329
+2019-03-15 16:57:59 ::1 GET /ErrorTrackers/Edit/45 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 745
+2019-03-15 16:58:01 ::1 POST /ErrorTrackers/Edit/45 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/45 302 0 0 360
+2019-03-15 16:58:01 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/45 200 0 0 255
+2019-03-15 16:58:12 ::1 GET /ErrorTrackers/Edit/40 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 781
+2019-03-15 16:58:15 ::1 POST /ErrorTrackers/Edit/40 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/40 302 0 0 338
+2019-03-15 16:58:15 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/40 200 0 0 243
+2019-03-15 17:00:01 ::1 GET /ErrorTrackers/Edit/48 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1498
+2019-03-15 17:00:36 ::1 GET /ErrorTrackers/Edit/48 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1332
+2019-03-15 17:00:36 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/48 200 0 0 22
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 17:16:15
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 17:16:15 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8903
+2019-03-15 17:16:16 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 7951
+2019-03-15 17:16:23 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 2033
+2019-03-15 17:16:29 ::1 GET /ErrorTrackers/Edit/47 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 500 0 0 2021
+2019-03-15 17:16:46 ::1 GET /ErrorTrackers/Edit/47 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 500 0 0 2808
+2019-03-15 17:16:46 ::1 GET /favicon.ico - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/47 200 0 0 70
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 17:22:18
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 17:22:18 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 7757
+2019-03-15 17:22:23 ::1 GET / - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 - 200 0 0 10036
+2019-03-15 17:30:35 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ 200 0 0 2827
+2019-03-15 17:30:43 ::1 GET /ErrorTrackers/Edit/48 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 2830
+2019-03-15 17:31:09 ::1 POST /ErrorTrackers/Edit/48 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/48 302 0 0 864
+2019-03-15 17:31:09 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/48 200 0 0 402
+2019-03-15 17:42:45 ::1 GET /ErrorTrackers/Edit/43 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 1851
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-03-15 18:34:52
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-03-15 18:34:52 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers/Edit/43 200 0 0 1926
+2019-03-15 18:34:57 ::1 GET /EmployeeTimes - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 635
+2019-03-15 18:35:00 ::1 GET /EmployeeTimes/Edit/113 - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 816
+2019-03-15 18:35:03 ::1 GET /EmployeeTimes - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes/Edit/113 200 0 0 489
+2019-03-15 18:35:04 ::1 GET /ErrorTrackers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/EmployeeTimes 200 0 0 295
+2019-03-15 18:35:07 ::1 GET /Admin - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 200 0 0 541
+2019-03-15 18:35:07 ::1 GET /Roles - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/ErrorTrackers 400 0 64 1507
+2019-03-15 18:35:07 ::1 GET /Projects - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/Admin 200 0 0 433
+2019-03-15 18:35:08 ::1 GET /Customers - 50267 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.119+Safari/537.36 http://localhost:50267/Projects 200 0 0 295

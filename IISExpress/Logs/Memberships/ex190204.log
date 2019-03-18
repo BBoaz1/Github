@@ -1,0 +1,124 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-04 14:20:41
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-04 14:20:41 ::1 GET / - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 500 0 0 13767
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-04 14:21:57
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-04 14:21:57 ::1 GET / - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 500 0 0 3862
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-04 14:32:13
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-04 14:32:13 ::1 GET / - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 500 0 0 5354
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-04 14:36:11
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-04 14:36:11 ::1 GET / - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 14136
+2019-02-04 14:36:11 ::1 GET /Content/bootstrap.css - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 33
+2019-02-04 14:36:11 ::1 GET /Content/site.css - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 29
+2019-02-04 14:36:11 ::1 GET /Scripts/jquery-3.3.1.js - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 29
+2019-02-04 14:36:11 ::1 GET /Scripts/bootstrap.js - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 45
+2019-02-04 14:36:11 ::1 GET /Scripts/AdminMenu.js - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 45
+2019-02-04 14:36:11 ::1 GET /Scripts/modernizr-2.8.3.js - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 37
+2019-02-04 14:36:11 ::1 GET /fonts/glyphicons-halflings-regular.woff2 - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Content/bootstrap.css 304 0 0 12
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-04 14:45:23
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-04 14:45:23 ::1 GET / - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 5658
+2019-02-04 14:45:23 ::1 GET /Content/navbar.css - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 200 0 0 18
+2019-02-04 14:47:42 ::1 GET / - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 34
+2019-02-04 14:47:42 ::1 GET /Content/navbar.css - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 200 0 0 2
+2019-02-04 14:47:42 ::1 GET /favicon.ico - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 200 0 0 11
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-04 15:10:38
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-04 15:10:38 ::1 GET / - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 15644
+2019-02-04 15:10:38 ::1 GET /Content/navbar.css - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 10
+2019-02-04 15:10:38 ::1 GET /Content/Logos/Redpointe+Circle+Blk+Bkgd.jpg - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 200 0 0 28
+2019-02-04 15:10:38 ::1 GET /Content/Logos/Redpointe+Circle+Wht+Bkgd.jpg - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 200 0 0 39
+2019-02-04 15:10:45 ::1 GET /Admin/ProductLinkText - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 200 0 0 1520
+2019-02-04 15:10:47 ::1 GET /Admin/ProductLinkText/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/ProductLinkText 200 0 0 71
+2019-02-04 15:10:59 ::1 POST /Admin/ProductLinkText/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/ProductLinkText/Create 302 0 0 154
+2019-02-04 15:10:59 ::1 GET /Admin/ProductLinkText - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/ProductLinkText/Create 200 0 0 14
+2019-02-04 15:11:15 ::1 GET /Admin/ProductType - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/ProductLinkText 200 0 0 603
+2019-02-04 15:11:23 ::1 GET /Admin/ProductType/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/ProductType 200 0 0 73
+2019-02-04 15:11:32 ::1 POST /Admin/ProductType/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/ProductType/Create 302 0 0 25
+2019-02-04 15:11:32 ::1 GET /Admin/ProductType - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/ProductType/Create 200 0 0 22
+2019-02-04 15:11:34 ::1 GET /Admin/ProductType/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/ProductType 200 0 0 11
+2019-02-04 15:11:44 ::1 POST /Admin/ProductType/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/ProductType/Create 302 0 0 17
+2019-02-04 15:11:44 ::1 GET /Admin/ProductType - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/ProductType/Create 200 0 0 22
+2019-02-04 15:11:48 ::1 GET /Admin/ProductType/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/ProductType 200 0 0 11
+2019-02-04 15:11:53 ::1 POST /Admin/ProductType/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/ProductType/Create 302 0 0 16
+2019-02-04 15:11:53 ::1 GET /Admin/ProductType - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/ProductType/Create 200 0 0 18
+2019-02-04 15:11:53 ::1 GET /Admin/ProductType/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/ProductType 200 0 0 12
+2019-02-04 15:11:58 ::1 POST /Admin/ProductType/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/ProductType/Create 302 0 0 16
+2019-02-04 15:11:58 ::1 GET /Admin/ProductType - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/ProductType/Create 200 0 0 17
+2019-02-04 15:12:09 ::1 GET /Admin/Product - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/ProductType 200 0 0 680
+2019-02-04 15:12:11 ::1 GET /Admin/Product/Delete - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product 400 0 0 10
+2019-02-04 15:12:14 ::1 GET /Admin/Product/Delete - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product 400 0 0 7
+2019-02-04 15:12:18 ::1 GET /Admin/Product/Delete - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product 400 0 0 7
+2019-02-04 15:12:28 ::1 GET /Admin/Product/Delete - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product 400 0 0 7
+2019-02-04 15:15:36 ::1 GET /Admin/Product/Subscription - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product 404 0 0 49
+2019-02-04 15:15:39 ::1 GET /Admin/Product/Edit - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product 400 0 0 10
+2019-02-04 15:18:08 ::1 GET /Admin/Product/Delete - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product 400 0 0 11
+2019-02-04 15:18:44 ::1 GET /Admin/Product/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product 200 0 0 164
+2019-02-04 15:18:52 ::1 GET /Admin/Product/Details - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product 400 0 0 29
+2019-02-04 15:22:40 ::1 GET /Admin/Product/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product 200 0 0 76
+2019-02-04 15:23:36 ::1 POST /Admin/Product/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product/Create 302 0 0 23
+2019-02-04 15:23:36 ::1 GET /Admin/Product - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product/Create 200 0 0 56
+2019-02-04 15:23:39 ::1 GET /Admin/Product/Delete - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product 400 0 0 11
+2019-02-04 15:23:52 ::1 GET /Admin/Product/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product 200 0 0 27
+2019-02-04 15:24:43 ::1 POST /Admin/Product/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product/Create 302 0 0 19
+2019-02-04 15:24:43 ::1 GET /Admin/Product - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product/Create 200 0 0 48
+2019-02-04 15:24:55 ::1 GET /Admin/Subscription - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product 200 0 0 636
+2019-02-04 15:24:57 ::1 GET /Admin/Subscription/Delete - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Subscription 400 0 0 10
+2019-02-04 15:26:46 ::1 GET /Admin/Subscription/Delete - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Subscription 400 0 0 12
+2019-02-04 15:27:17 ::1 GET /Admin/Subscription/Edit - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Subscription 400 0 0 11
+2019-02-04 15:28:13 ::1 GET /Admin/Subscription/Delete - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Subscription 400 0 0 15
+2019-02-04 15:29:58 ::1 GET /Admin/Section - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Subscription 200 0 0 605
+2019-02-04 15:30:00 ::1 GET /Admin/Section/Delete - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Section 400 0 0 11
+2019-02-04 15:30:02 ::1 GET /Admin/Section/Delete - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Section 400 0 0 8
+2019-02-04 15:30:06 ::1 GET /Admin/Item - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Section 200 0 0 645
+2019-02-04 15:30:12 ::1 GET /Admin/Product - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Item 200 0 0 43
+2019-02-04 15:30:16 ::1 GET /Admin/ProductItem - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product 500 0 0 567
+2019-02-04 15:30:22 ::1 GET /Account - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product 500 0 0 130
+2019-02-04 15:30:24 ::1 GET / - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Product 200 0 0 19
+2019-02-04 15:30:24 ::1 GET /Content/Logos/Redpointe+Circle+Wht+Bkgd.jpg - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 6
+2019-02-04 15:30:24 ::1 GET /Content/navbar.css - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 13
+2019-02-04 15:30:24 ::1 GET /Content/Logos/Redpointe+Circle+Blk+Bkgd.jpg - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 19
+2019-02-04 15:30:30 ::1 GET /Account - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 500 0 0 64
+2019-02-04 15:30:33 ::1 GET /Admin/Section - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 200 0 0 21
+2019-02-04 15:30:35 ::1 GET /Admin/Section/Delete - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Section 400 0 0 9
+2019-02-04 15:30:43 ::1 GET /Admin/Item - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 200 0 0 25
+2019-02-04 15:40:42 ::1 GET /Admin/Part - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 200 0 0 838
+2019-02-04 15:40:45 ::1 GET /Admin/Section - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Part 200 0 0 65
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-04 16:11:03
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-04 16:11:03 ::1 GET / - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Section 200 0 0 1047
+2019-02-04 16:11:03 ::1 GET /Content/navbar.css - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 14
+2019-02-04 16:11:03 ::1 GET /Content/Logos/Redpointe+Circle+Wht+Bkgd.jpg - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 27
+2019-02-04 16:11:03 ::1 GET /Content/Logos/Redpointe+Circle+Blk+Bkgd.jpg - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 27
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-04 16:22:58
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-04 16:22:58 ::1 GET / - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 4475
+2019-02-04 16:22:58 ::1 GET /Content/navbar.css - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 18
+2019-02-04 16:22:58 ::1 GET /Content/Logos/Redpointe+Circle+Wht+Bkgd.jpg - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 13
+2019-02-04 16:22:58 ::1 GET /Content/Logos/Redpointe+Circle+Blk+Bkgd.jpg - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 16
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-04 16:39:15
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-04 16:39:15 ::1 GET /Home/Contact - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 200 0 0 40
+2019-02-04 16:39:15 ::1 GET /Content/navbar.css - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Home/Contact 304 0 0 5
+2019-02-04 16:39:15 ::1 GET /Content/Logos/Redpointe+Circle+Wht+Bkgd.jpg - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Home/Contact 304 0 0 16
+2019-02-04 16:39:15 ::1 GET /Content/Logos/Redpointe+Circle+Blk+Bkgd.jpg - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Home/Contact 304 0 0 17

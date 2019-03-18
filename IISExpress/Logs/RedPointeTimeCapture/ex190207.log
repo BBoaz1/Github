@@ -1,0 +1,11 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-07 14:25:24
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-07 14:25:24 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 577
+2019-02-07 14:25:26 ::1 GET /EmployeeTimes/Delete/4 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 175
+2019-02-07 14:25:29 ::1 POST /EmployeeTimes/Delete/4 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Delete/4 302 0 0 608
+2019-02-07 14:25:29 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Delete/4 200 0 0 169
+2019-02-07 14:25:31 ::1 GET /EmployeeTimes/Create - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 730
+2019-02-07 14:27:19 ::1 POST /EmployeeTimes/Create - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Create 302 0 0 1401
+2019-02-07 14:27:19 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Create 200 0 0 801

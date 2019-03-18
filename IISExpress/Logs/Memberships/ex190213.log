@@ -1,0 +1,70 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-13 16:59:10
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-13 16:59:10 ::1 GET / - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 11969
+2019-02-13 16:59:10 ::1 GET /Content/navbar.css - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 21
+2019-02-13 16:59:10 ::1 GET /Content/Logos/Redpointe+Circle+Wht+Bkgd.jpg - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 32
+2019-02-13 16:59:10 ::1 GET /Content/Logos/Redpointe+Circle+Blk+Bkgd.jpg - 63040 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 304 0 0 33
+2019-02-13 16:59:33 ::1 GET /Admin/Subscription - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 200 0 0 280
+2019-02-13 16:59:34 ::1 GET /Admin/Subscription/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Subscription 500 0 0 73
+2019-02-13 16:59:51 ::1 GET /Admin/Subscription/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Subscription 500 0 0 38
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-13 17:03:28
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-13 17:03:28 ::1 GET /Admin/Subscription/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 500 0 0 12287
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-13 17:04:02
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-13 17:04:02 ::1 GET /Admin/Subscription/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 500 0 0 6494
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-13 17:05:32
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-13 17:05:32 ::1 GET / - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 5429
+2019-02-13 17:05:38 ::1 GET /Admin/Subscription - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 200 0 0 749
+2019-02-13 17:05:39 ::1 GET /Admin/Subscription/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Subscription 500 0 0 61
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-13 17:17:00
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-13 17:17:00 ::1 GET / - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 9293
+2019-02-13 17:17:05 ::1 GET /Admin/Subscription - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 200 0 0 2003
+2019-02-13 17:17:07 ::1 GET /Admin/Subscription/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Subscription 200 0 0 100
+2019-02-13 17:20:34 ::1 POST /Admin/Subscription/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Subscription/Create 302 0 0 127
+2019-02-13 17:20:34 ::1 GET /Admin/Subscription - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Subscription/Create 200 0 0 55
+2019-02-13 17:20:59 ::1 GET /Account - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Subscription 500 0 0 165
+2019-02-13 17:21:25 ::1 GET /Account - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Subscription 500 0 0 68
+2019-02-13 17:23:15 ::1 GET / - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/Admin/Subscription 200 0 0 18
+2019-02-13 17:23:17 ::1 GET /Account - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 500 0 0 74
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-13 17:32:25
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-13 17:32:25 ::1 GET / - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 16416
+2019-02-13 17:32:29 ::1 GET /Account - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 500 0 0 124
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-13 17:48:52
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-13 17:48:52 ::1 GET / - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 14110
+2019-02-13 17:48:59 ::1 GET /Account - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 500 0 0 1625
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-13 18:57:53
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-13 18:57:53 ::1 GET / - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 7841
+2019-02-13 18:57:58 ::1 GET /Account - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 500 0 0 149
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-13 19:06:48
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-13 19:06:48 ::1 GET / - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 5508
+2019-02-13 19:06:57 ::1 GET /Account - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:63040/ 500 0 0 742
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-13 20:51:46
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-13 20:51:46 ::1 GET /Admin/Subscription/Create - 63040 admin@company.com ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 20118

@@ -1,0 +1,180 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-05 14:14:15
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-05 14:14:15 ::1 DEBUG / - 52380 - ::1 - - 200 0 64 10254
+2019-02-05 14:14:16 ::1 GET / - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 8046
+2019-02-05 14:14:16 ::1 GET /css/site.css - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/ 304 0 0 198
+2019-02-05 14:14:16 ::1 GET /lib/bootstrap/dist/js/bootstrap.js - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/ 304 0 0 197
+2019-02-05 14:14:16 ::1 GET /js/site.js v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/ 304 0 0 197
+2019-02-05 14:14:16 ::1 GET /lib/jquery/dist/jquery.js - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/ 304 0 0 213
+2019-02-05 14:14:16 ::1 GET /lib/bootstrap/dist/css/bootstrap.css - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/ 304 0 0 234
+2019-02-05 14:14:16 ::1 GET /favicon.ico - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/ 200 0 0 91
+2019-02-05 14:14:18 ::1 GET /Home/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/ 200 0 0 84
+2019-02-05 14:14:18 ::1 GET /images/Redpointe+Blk+Bkgd.jpg - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Home/Index 304 0 0 30
+2019-02-05 14:14:23 ::1 GET /Home/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Home/Index 200 0 0 38
+2019-02-05 14:14:28 ::1 GET /Customers/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Home/Index 200 0 0 1826
+2019-02-05 14:14:31 ::1 GET /Customers/Delete/7 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Index 200 0 0 530
+2019-02-05 14:14:33 ::1 POST /Customers/Delete/7 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Delete/7 302 0 0 859
+2019-02-05 14:14:33 ::1 GET /Customers/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Delete/7 200 0 0 380
+2019-02-05 14:14:36 ::1 GET /Customers/Delete/9 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Index 200 0 0 221
+2019-02-05 14:14:37 ::1 POST /Customers/Delete/9 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Delete/9 302 0 0 509
+2019-02-05 14:14:37 ::1 GET /Customers/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Delete/9 200 0 0 207
+2019-02-05 14:14:39 ::1 GET /Customers/Delete/11 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Index 200 0 0 192
+2019-02-05 14:14:41 ::1 POST /Customers/Delete/11 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Delete/11 302 0 0 448
+2019-02-05 14:14:41 ::1 GET /Customers/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Delete/11 200 0 0 205
+2019-02-05 14:14:43 ::1 GET /Projects/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Index 200 0 0 352
+2019-02-05 14:14:45 ::1 GET /Projects/Create - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Projects/Index 200 0 0 715
+2019-02-05 14:14:45 ::1 GET /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Projects/Create 304 0 0 49
+2019-02-05 14:14:45 ::1 GET /lib/jquery-validation/dist/jquery.validate.js - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Projects/Create 304 0 0 62
+2019-02-05 14:14:54 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Projects/Create 200 0 0 759
+2019-02-05 14:14:59 ::1 GET /EmployeeTimes/Create - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 718
+2019-02-05 14:15:02 ::1 GET /Admin/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Create 200 0 0 347
+2019-02-05 14:15:07 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Admin/Index 200 0 0 809
+2019-02-05 14:15:10 ::1 GET /Home/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 68
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-05 14:43:16
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-05 14:43:16 ::1 DEBUG / - 52380 - ::1 - - 200 0 64 6701
+2019-02-05 14:43:16 ::1 GET / - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 6341
+2019-02-05 14:43:22 ::1 GET /Home/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/ 200 0 0 71
+2019-02-05 14:43:25 ::1 GET /Customers/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Home/Index 200 0 0 1804
+2019-02-05 14:43:27 ::1 GET /Projects/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Index 200 0 0 412
+2019-02-05 14:43:28 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Projects/Index 200 0 0 317
+2019-02-05 14:43:31 ::1 GET /Admin/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 394
+2019-02-05 14:43:33 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Admin/Index 200 0 0 902
+2019-02-05 14:43:41 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 229
+2019-02-05 14:56:29 ::1 GET /Home/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 165
+2019-02-05 14:56:31 ::1 GET /Customers/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Home/Index 200 0 0 494
+2019-02-05 14:56:32 ::1 GET /Customers/Create - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Index 200 0 0 148
+2019-02-05 14:56:36 ::1 GET /Projects/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Create 200 0 0 245
+2019-02-05 14:56:37 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Projects/Index 200 0 0 232
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-05 15:08:56
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-05 15:08:56 ::1 GET / - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 2329
+2019-02-05 15:08:58 ::1 GET /Home/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/ 200 0 0 39
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-05 16:07:21
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-05 16:07:21 ::1 GET /Home/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/ 200 0 0 85
+2019-02-05 16:07:21 ::1 GET /favicon.ico - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Home/Index 200 0 0 58
+2019-02-05 16:07:26 ::1 GET /Customers/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Home/Index 200 0 0 1521
+2019-02-05 16:07:28 ::1 GET /Projects/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Index 200 0 0 347
+2019-02-05 16:07:29 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Projects/Index 200 0 0 440
+2019-02-05 16:07:29 ::1 GET /Admin/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 280
+2019-02-05 16:07:32 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Admin/Index 200 0 0 806
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-05 16:20:50
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-05 16:20:50 ::1 GET / - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 2440
+2019-02-05 16:20:54 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/ 200 0 0 2189
+2019-02-05 16:21:02 ::1 GET /Roles/SelectRoles/73144a4a-745e-4be0-99bb-06ff8b26b779 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 508
+2019-02-05 16:21:05 ::1 GET /Admin/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/SelectRoles/73144a4a-745e-4be0-99bb-06ff8b26b779 200 0 0 211
+2019-02-05 16:21:09 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Admin/Index 200 0 0 631
+2019-02-05 16:21:22 ::1 GET /Projects/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 267
+2019-02-05 16:21:24 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Projects/Index 200 0 0 284
+2019-02-05 16:21:25 ::1 GET /Admin/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 165
+2019-02-05 16:21:27 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Admin/Index 200 0 0 597
+2019-02-05 16:21:28 ::1 GET /Admin/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 160
+2019-02-05 16:31:04 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Admin/Index 200 0 0 1066
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-05 16:50:30
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-05 16:50:30 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 864
+2019-02-05 16:50:32 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 611
+2019-02-05 16:50:37 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 626
+2019-02-05 16:50:37 ::1 GET /Admin/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 172
+2019-02-05 16:50:40 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Admin/Index 200 0 0 632
+2019-02-05 16:50:42 ::1 GET /Roles/EditRole/73144a4a-745e-4be0-99bb-06ff8b26b779 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 239
+2019-02-05 16:50:44 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/EditRole/73144a4a-745e-4be0-99bb-06ff8b26b779 200 0 0 579
+2019-02-05 16:50:56 ::1 GET /Admin/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 232
+2019-02-05 16:50:58 ::1 GET /Admin/Edit/73144a4a-745e-4be0-99bb-06ff8b26b779 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Admin/Index 200 0 0 250
+2019-02-05 16:51:04 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Admin/Edit/73144a4a-745e-4be0-99bb-06ff8b26b779 200 0 0 634
+2019-02-05 16:51:06 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 205
+2019-02-05 16:51:09 ::1 GET /EmployeeTimes/Create - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 671
+2019-02-05 16:52:15 ::1 GET /Customers/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Create 200 0 0 202
+2019-02-05 16:52:16 ::1 GET /Customers/Create - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Index 200 0 0 47
+2019-02-05 16:52:23 ::1 POST /Customers/Create - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Create 302 0 0 556
+2019-02-05 16:52:23 ::1 GET /Customers/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Create 200 0 0 176
+2019-02-05 16:52:24 ::1 GET /Customers/Create - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Index 200 0 0 28
+2019-02-05 16:52:33 ::1 POST /Customers/Create - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Create 302 0 0 289
+2019-02-05 16:52:33 ::1 GET /Customers/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Create 200 0 0 172
+2019-02-05 16:52:37 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Customers/Index 200 0 0 174
+2019-02-05 16:52:39 ::1 GET /EmployeeTimes/Create - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 449
+2019-02-05 16:53:15 ::1 POST /EmployeeTimes/Create - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Create 302 0 0 383
+2019-02-05 16:53:15 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Create 200 0 0 234
+2019-02-05 16:53:18 ::1 GET /Projects/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 183
+2019-02-05 16:53:20 ::1 GET /Projects/Create - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Projects/Index 200 0 0 250
+2019-02-05 16:53:28 ::1 POST /Projects/Create - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Projects/Create 302 0 0 272
+2019-02-05 16:53:28 ::1 GET /Projects/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Projects/Create 200 0 0 194
+2019-02-05 16:53:32 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Projects/Index 200 0 0 186
+2019-02-05 16:53:35 ::1 GET /EmployeeTimes/Edit/4 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 540
+2019-02-05 16:53:43 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Edit/4 200 0 0 167
+2019-02-05 16:53:50 ::1 GET /EmployeeTimes/Edit/4 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 448
+2019-02-05 16:53:59 ::1 POST /EmployeeTimes/Edit/4 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Edit/4 302 0 0 299
+2019-02-05 16:53:59 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Edit/4 200 0 0 175
+2019-02-05 16:54:11 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 160
+2019-02-05 16:54:13 ::1 GET /Admin/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 159
+2019-02-05 16:54:16 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Admin/Index 200 0 0 603
+2019-02-05 16:54:18 ::1 GET /Roles/EditRole/73144a4a-745e-4be0-99bb-06ff8b26b779 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 166
+2019-02-05 16:54:21 ::1 GET /Admin/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/EditRole/73144a4a-745e-4be0-99bb-06ff8b26b779 200 0 0 165
+2019-02-05 16:54:22 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Admin/Index 200 0 0 171
+2019-02-05 17:02:12 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 481
+2019-02-05 17:02:16 ::1 GET /EmployeeTimes/Create - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 474
+2019-02-05 17:02:36 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Create 200 0 0 592
+2019-02-05 17:02:40 ::1 GET /Roles/SelectRoles/73144a4a-745e-4be0-99bb-06ff8b26b779 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 315
+2019-02-05 17:02:44 ::1 POST /Roles/SelectRoles/73144a4a-745e-4be0-99bb-06ff8b26b779 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/SelectRoles/73144a4a-745e-4be0-99bb-06ff8b26b779 302 0 0 784
+2019-02-05 17:02:44 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/SelectRoles/73144a4a-745e-4be0-99bb-06ff8b26b779 200 0 0 633
+2019-02-05 17:02:50 ::1 GET /Roles/EditRole/73144a4a-745e-4be0-99bb-06ff8b26b779 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 174
+2019-02-05 17:04:20 ::1 GET /Admin/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/EditRole/73144a4a-745e-4be0-99bb-06ff8b26b779 200 0 0 163
+2019-02-05 17:04:24 ::1 GET /Admin/Edit/73144a4a-745e-4be0-99bb-06ff8b26b779 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Admin/Index 200 0 0 180
+2019-02-05 17:04:28 ::1 GET /Admin/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Admin/Edit/73144a4a-745e-4be0-99bb-06ff8b26b779 200 0 0 161
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-05 17:50:51
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-05 17:50:51 ::1 GET / - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 2546
+2019-02-05 17:51:00 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/ 200 0 0 1664
+2019-02-05 17:51:07 ::1 GET /EmployeeTimes/Edit/4 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 966
+2019-02-05 17:51:12 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Edit/4 200 0 0 763
+2019-02-05 17:51:14 ::1 GET /Roles/EditRole/73144a4a-745e-4be0-99bb-06ff8b26b779 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 256
+2019-02-05 17:51:26 ::1 GET /EmployeeTimes/Edit/4 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 460
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-05 18:00:39
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-05 18:00:39 ::1 GET / - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 2866
+2019-02-05 18:00:43 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/ 200 0 0 1642
+2019-02-05 18:00:46 ::1 GET /EmployeeTimes/Edit/4 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 863
+2019-02-05 18:01:06 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Admin/Index 200 0 0 178
+2019-02-05 18:01:09 ::1 GET /EmployeeTimes/Edit/4 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 510
+2019-02-05 18:09:50 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Edit/4 200 0 0 449
+2019-02-05 18:12:58 ::1 GET /EmployeeTimes/Create - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 648
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-05 18:40:40
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-05 18:40:39 ::1 GET /EmployeeTimes/Edit/4 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 789
+2019-02-05 18:49:58 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Edit/4 200 0 0 476
+2019-02-05 18:50:00 ::1 GET /EmployeeTimes/Edit/4 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 552
+2019-02-05 18:56:14 ::1 GET /EmployeeTimes/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Edit/4 200 0 0 469
+2019-02-05 18:56:17 ::1 GET /EmployeeTimes/Create - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Index 200 0 0 503
+2019-02-05 19:09:53 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Create 200 0 0 1046
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-05 19:50:06
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-05 19:50:06 ::1 DEBUG / - 52380 - ::1 - - 200 0 64 7823
+2019-02-05 19:50:06 ::1 GET / - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 6597
+2019-02-05 19:50:15 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/ 200 0 0 2314
+2019-02-05 19:50:17 ::1 GET /Roles/SelectRoles/73144a4a-745e-4be0-99bb-06ff8b26b779 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 585
+2019-02-05 19:50:19 ::1 POST /Roles/SelectRoles/73144a4a-745e-4be0-99bb-06ff8b26b779 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/SelectRoles/73144a4a-745e-4be0-99bb-06ff8b26b779 500 0 0 920
+2019-02-05 19:52:50 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/EmployeeTimes/Edit/4 200 0 0 3389
+2019-02-05 19:52:53 ::1 GET /Roles/SelectRoles/73144a4a-745e-4be0-99bb-06ff8b26b779 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 544
+2019-02-05 19:52:56 ::1 POST /Roles/SelectRoles/73144a4a-745e-4be0-99bb-06ff8b26b779 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/SelectRoles/73144a4a-745e-4be0-99bb-06ff8b26b779 500 0 0 733

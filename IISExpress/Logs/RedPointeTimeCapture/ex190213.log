@@ -1,0 +1,10 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-13 15:58:33
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-13 15:58:33 ::1 DEBUG / - 52380 - ::1 - - 200 0 64 12963
+2019-02-13 15:58:34 ::1 GET / - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 10706
+2019-02-13 15:58:34 ::1 GET /favicon.ico - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/ 200 0 0 68
+2019-02-13 15:58:39 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/ 200 0 0 2508
+2019-02-13 15:58:46 ::1 GET /Roles/EditRole/73144a4a-745e-4be0-99bb-06ff8b26b779 - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/Index 200 0 0 416
+2019-02-13 15:58:50 ::1 GET /Roles/Index - 44365 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44365/Roles/EditRole/73144a4a-745e-4be0-99bb-06ff8b26b779 200 0 0 555

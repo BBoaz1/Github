@@ -1,0 +1,16 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-04 18:15:50
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-04 18:15:50 ::1 DEBUG / - 51923 - ::1 - - 200 0 64 11538
+2019-02-04 18:15:50 ::1 GET / - 44307 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 8773
+2019-02-04 18:15:51 ::1 GET /js/site.js v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 44307 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44307/ 200 0 0 212
+2019-02-04 18:15:51 ::1 GET /css/site.css - 44307 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44307/ 200 0 0 213
+2019-02-04 18:15:51 ::1 GET /images/banner1.svg - 44307 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44307/ 200 0 0 233
+2019-02-04 18:15:51 ::1 GET /images/banner3.svg - 44307 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44307/ 200 0 0 232
+2019-02-04 18:15:51 ::1 GET /images/banner2.svg - 44307 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44307/ 200 0 0 232
+2019-02-04 18:15:51 ::1 GET /lib/bootstrap/dist/js/bootstrap.js - 44307 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44307/ 200 0 0 266
+2019-02-04 18:15:51 ::1 GET /lib/bootstrap/dist/css/bootstrap.css - 44307 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44307/ 200 0 0 302
+2019-02-04 18:15:51 ::1 GET /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 - 44307 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44307/lib/bootstrap/dist/css/bootstrap.css 200 0 0 97
+2019-02-04 18:15:51 ::1 GET /lib/jquery/dist/jquery.js - 44307 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44307/ 200 0 0 457
+2019-02-04 18:15:51 ::1 GET /favicon.ico - 44307 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44307/ 200 0 0 92

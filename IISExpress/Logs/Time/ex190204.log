@@ -1,0 +1,22 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-04 19:48:20
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-04 19:48:20 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 11706
+2019-02-04 19:48:22 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 9946
+2019-02-04 19:48:22 ::1 GET /css/site.css - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 175
+2019-02-04 19:48:22 ::1 GET /images/banner1.svg - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 190
+2019-02-04 19:48:22 ::1 GET /images/banner3.svg - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 198
+2019-02-04 19:48:22 ::1 GET /js/site.js v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 198
+2019-02-04 19:48:22 ::1 GET /images/banner2.svg - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 209
+2019-02-04 19:48:22 ::1 GET /lib/bootstrap/dist/js/bootstrap.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 270
+2019-02-04 19:48:22 ::1 GET /lib/bootstrap/dist/css/bootstrap.css - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 360
+2019-02-04 19:48:22 ::1 GET /lib/jquery/dist/jquery.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 434
+2019-02-04 19:48:22 ::1 GET /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/lib/bootstrap/dist/css/bootstrap.css 200 0 0 90
+2019-02-04 19:48:22 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 24
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-04 20:15:48
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-04 20:15:48 ::1 DEBUG / - 50267 - ::1 - - 502 5 64 18290
+2019-02-04 20:15:51 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 502 3 64 13169

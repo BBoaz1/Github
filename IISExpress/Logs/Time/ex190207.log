@@ -1,0 +1,188 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-07 14:14:14
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-07 14:14:14 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 7143
+2019-02-07 14:14:15 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 6848
+2019-02-07 14:14:15 ::1 GET /js/site.js v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 304 0 0 124
+2019-02-07 14:14:15 ::1 GET /css/site.css - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 304 0 0 128
+2019-02-07 14:14:15 ::1 GET /lib/bootstrap/dist/css/bootstrap.css - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 304 0 0 132
+2019-02-07 14:14:15 ::1 GET /lib/jquery/dist/jquery.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 304 0 0 132
+2019-02-07 14:14:15 ::1 GET /lib/bootstrap/dist/js/bootstrap.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 304 0 0 348
+2019-02-07 14:14:15 ::1 GET /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/lib/bootstrap/dist/css/bootstrap.css 304 0 0 193
+2019-02-07 14:14:20 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 2228
+2019-02-07 14:14:22 ::1 GET /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 585
+2019-02-07 14:14:24 ::1 POST /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a 302 0 0 1045
+2019-02-07 14:14:24 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a 200 0 0 623
+2019-02-07 14:14:27 ::1 GET /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 422
+2019-02-07 14:14:29 ::1 POST /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a 302 0 0 540
+2019-02-07 14:14:29 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a 200 0 0 629
+2019-02-07 14:14:32 ::1 GET /Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 432
+2019-02-07 14:14:33 ::1 POST /Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 302 0 0 532
+2019-02-07 14:14:33 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 200 0 0 606
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-07 15:03:54
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-07 15:03:54 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 7862
+2019-02-07 15:03:54 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 7020
+2019-02-07 15:04:27 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 400 0 64 2405
+2019-02-07 15:04:27 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 877
+2019-02-07 15:04:29 ::1 GET /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 707
+2019-02-07 15:04:31 ::1 POST /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a 500 0 0 504
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-07 15:05:13
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-07 15:05:13 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 7665
+2019-02-07 15:05:13 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 7355
+2019-02-07 15:05:18 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 2319
+2019-02-07 15:05:21 ::1 GET /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 787
+2019-02-07 15:05:23 ::1 POST /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a 500 0 0 568
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-07 15:06:04
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-07 15:06:04 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 6845
+2019-02-07 15:06:04 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 6384
+2019-02-07 15:07:19 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 2173
+2019-02-07 15:07:21 ::1 GET /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 800
+2019-02-07 15:07:23 ::1 POST /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a 500 0 0 584
+2019-02-07 15:09:50 ::1 GET /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 587
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-07 15:13:09
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-07 15:13:09 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8577
+2019-02-07 15:13:10 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 8377
+2019-02-07 15:13:26 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 2155
+2019-02-07 15:13:29 ::1 GET /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 757
+2019-02-07 15:13:30 ::1 POST /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a 500 0 0 323
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-07 15:30:19
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-07 15:30:19 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 7392
+2019-02-07 15:30:19 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 6760
+2019-02-07 15:31:16 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 2088
+2019-02-07 15:31:19 ::1 GET /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 815
+2019-02-07 15:31:20 ::1 POST /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a 500 0 0 270
+2019-02-07 15:31:35 ::1 GET /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 612
+2019-02-07 15:31:55 ::1 GET /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 596
+2019-02-07 15:31:56 ::1 POST /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a 500 0 0 123
+2019-02-07 15:32:17 ::1 GET /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 585
+2019-02-07 15:33:15 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8102
+2019-02-07 15:33:15 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 7473
+2019-02-07 15:33:20 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 2085
+2019-02-07 15:33:22 ::1 GET /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 755
+2019-02-07 15:34:08 ::1 POST /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a 502 3 12030 44774
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-07 15:34:41
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-07 15:34:41 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 7362
+2019-02-07 15:34:41 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 6636
+2019-02-07 15:34:46 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 2158
+2019-02-07 15:34:47 ::1 GET /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 707
+2019-02-07 15:37:25 ::1 POST /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a 400 0 64 145336
+2019-02-07 15:37:25 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a 200 0 0 3801
+2019-02-07 15:37:46 ::1 GET /Roles/DeleteRoles/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 619
+2019-02-07 15:37:51 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 448
+2019-02-07 15:37:53 ::1 GET /Projects - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 417
+2019-02-07 15:37:53 ::1 GET /Customers - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Projects 200 0 0 286
+2019-02-07 15:37:55 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Customers 200 0 0 256
+2019-02-07 15:37:55 ::1 GET /Admin - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 340
+2019-02-07 15:37:57 ::1 GET /Admin/Delete/7865334a-9da7-40c5-a426-68d47afc128a - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin 302 0 0 724
+2019-02-07 15:37:57 ::1 GET /Admin - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin 200 0 0 227
+2019-02-07 15:38:00 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin 200 0 0 423
+2019-02-07 15:38:03 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 400 0 64 352
+2019-02-07 15:38:03 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 715
+2019-02-07 15:38:34 ::1 GET /Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 571
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-07 15:44:50
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-07 15:44:50 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 7653
+2019-02-07 15:44:50 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 7022
+2019-02-07 15:45:01 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 400 0 64 2094
+2019-02-07 15:45:01 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 647
+2019-02-07 15:45:05 ::1 GET /Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 500 0 0 763
+2019-02-07 15:45:31 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 450
+2019-02-07 15:45:31 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 32
+2019-02-07 15:45:36 ::1 GET /Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 2812
+2019-02-07 15:45:39 ::1 POST /Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 500 0 0 510
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-07 15:52:02
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-07 15:52:02 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 7378
+2019-02-07 15:52:02 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 6623
+2019-02-07 15:52:08 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 1954
+2019-02-07 15:52:10 ::1 GET /Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 816
+2019-02-07 15:52:47 ::1 GET /Roles/DeleteRoles/ roleName=Employee 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 500 0 0 496
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-07 15:53:53
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-07 15:53:53 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 7648
+2019-02-07 15:53:53 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 7145
+2019-02-07 15:53:57 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 2023
+2019-02-07 15:53:59 ::1 GET /Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 709
+2019-02-07 15:54:01 ::1 GET /Roles/DeleteRoles/ roleName=Employee 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 500 0 0 556
+2019-02-07 15:54:24 ::1 GET /Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 2505
+2019-02-07 15:54:24 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 200 0 0 29
+2019-02-07 15:54:27 ::1 GET /Roles/DeleteUserRole/ roleName=Employee 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 404 0 0 17
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-07 15:54:59
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-07 15:54:59 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8090
+2019-02-07 15:54:59 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 7432
+2019-02-07 15:55:03 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 1973
+2019-02-07 15:55:05 ::1 GET /Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 694
+2019-02-07 15:55:05 ::1 GET /Roles/DeleteUserRole/ roleName=Employee 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 404 0 0 26
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-07 15:55:48
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-07 15:55:48 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 7442
+2019-02-07 15:55:48 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 6737
+2019-02-07 15:55:52 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 1863
+2019-02-07 15:55:54 ::1 GET /Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 718
+2019-02-07 15:55:56 ::1 GET /Roles/DeleteUserRole/ roleName=Employee 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 302 0 0 665
+2019-02-07 15:55:56 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/dd0047ac-906b-4e32-9ef0-c8a110c83fc2 200 0 0 424
+2019-02-07 15:58:22 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 7385
+2019-02-07 15:58:22 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 6450
+2019-02-07 15:58:27 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/ 200 0 0 1891
+2019-02-07 15:58:45 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 480
+2019-02-07 15:58:48 ::1 GET /Admin - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 412
+2019-02-07 15:58:51 ::1 GET /Admin/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin 200 0 0 141
+2019-02-07 15:58:51 ::1 GET /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin/Create 304 0 0 74
+2019-02-07 15:58:51 ::1 GET /lib/jquery-validation/dist/jquery.validate.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin/Create 304 0 0 75
+2019-02-07 15:58:54 ::1 GET /Admin - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin/Create 200 0 0 227
+2019-02-07 15:58:54 ::1 GET /Admin/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin 200 0 0 56
+2019-02-07 15:58:59 ::1 POST /Admin/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin/Create 302 0 0 887
+2019-02-07 15:58:59 ::1 GET /Admin - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin/Create 200 0 0 270
+2019-02-07 15:59:02 ::1 GET /Admin/Delete/a7bb1b60-ff3f-4f15-82aa-18ffb91d12db - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin 302 0 0 595
+2019-02-07 15:59:02 ::1 GET /Admin - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin 200 0 0 236
+2019-02-07 15:59:10 ::1 GET /Admin - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin 200 0 0 250
+2019-02-07 15:59:12 ::1 GET /Admin - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin 200 0 0 218
+2019-02-07 15:59:12 ::1 GET /Admin/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin 200 0 0 38
+2019-02-07 15:59:17 ::1 POST /Admin/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin/Create 302 0 0 541
+2019-02-07 15:59:17 ::1 GET /Admin - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin/Create 200 0 0 257
+2019-02-07 15:59:21 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin 200 0 0 557
+2019-02-07 15:59:23 ::1 GET /Roles/SelectRoles/3d4ad7eb-ab5d-460c-ab67-d85461f6a054 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 532
+2019-02-07 15:59:29 ::1 POST /Roles/SelectRoles/3d4ad7eb-ab5d-460c-ab67-d85461f6a054 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/SelectRoles/3d4ad7eb-ab5d-460c-ab67-d85461f6a054 302 0 0 1533
+2019-02-07 15:59:29 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/SelectRoles/3d4ad7eb-ab5d-460c-ab67-d85461f6a054 200 0 0 572
+2019-02-07 16:00:56 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 896
+2019-02-07 16:00:59 ::1 GET /Roles/DeleteRoles/3d4ad7eb-ab5d-460c-ab67-d85461f6a054 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 662
+2019-02-07 16:01:00 ::1 GET /Roles/DeleteUserRole/ roleName=Customer 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/3d4ad7eb-ab5d-460c-ab67-d85461f6a054 302 0 0 525
+2019-02-07 16:01:00 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles/DeleteRoles/3d4ad7eb-ab5d-460c-ab67-d85461f6a054 200 0 0 577
+2019-02-07 16:01:05 ::1 GET /Admin - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Roles 200 0 0 287
+2019-02-07 16:01:07 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/Admin 200 0 0 415
+2019-02-07 16:01:10 ::1 GET /EmployeeTimes area=Identity&page=%2FAccount%2FRegister 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 260
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-07 16:23:17
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-07 16:23:17 ::1 GET /Customers - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44389/EmployeeTimes?area=Identity&page=%2FAccount%2FRegister 200 0 0 706

@@ -1,0 +1,62 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-01-14 14:24:24
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-01-14 14:24:24 ::1 GET /Home/About - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 10894
+2019-01-14 14:24:24 ::1 GET /Content/site.css - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/Home/About 304 0 0 8
+2019-01-14 14:24:24 ::1 GET /Content/bootstrap.css - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/Home/About 304 0 0 8
+2019-01-14 14:24:24 ::1 GET /Scripts/modernizr-2.8.3.js - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/Home/About 304 0 0 13
+2019-01-14 14:24:24 ::1 GET /Scripts/bootstrap.js - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/Home/About 304 0 0 19
+2019-01-14 14:24:24 ::1 GET /Scripts/jquery-3.3.1.js - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/Home/About 304 0 0 22
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-01-14 15:22:36
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-01-14 15:22:36 ::1 GET /Home/ViewCustomer - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 12731
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-01-14 15:59:52
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-01-14 15:59:52 ::1 GET /Home/AddCustomer - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 9734
+2019-01-14 16:00:07 ::1 GET /Home/ViewCustomer +Name=benedict+boaz&Telephone=123457126 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/Home/AddCustomer 200 0 0 83
+2019-01-14 16:00:18 ::1 GET / - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/Home/AddCustomer 200 0 0 7
+2019-01-14 16:00:18 ::1 GET / - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/ 200 0 0 1
+2019-01-14 16:00:21 ::1 GET /Home/About - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/ 200 0 0 12
+2019-01-14 16:00:21 ::1 GET /Home/Contact - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/Home/About 200 0 0 13
+2019-01-14 16:00:23 ::1 GET /Home/About - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/Home/Contact 200 0 0 1
+2019-01-14 16:00:23 ::1 GET / - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/Home/About 200 0 0 1
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-01-14 16:25:58
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-01-14 16:25:58 ::1 GET /Home/CustomerList - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 12393
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-01-14 16:55:57
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-01-14 16:55:57 ::1 GET /Home/CustomerList - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 7949
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-01-14 18:14:39
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-01-14 18:14:39 ::1 GET /Home/AddCustomer - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 12366
+2019-01-14 18:14:46 ::1 GET /Home/ViewCustomer +Name=Benedict&Telephone=01202 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/Home/AddCustomer 200 0 0 69
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-01-14 18:51:35
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-01-14 18:51:35 ::1 GET /Home/CustomerList - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 64 11002
+2019-01-14 18:51:40 ::1 GET /Home/CustomerList - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 32
+2019-01-14 18:51:53 ::1 GET /Home/CustomerList - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 10
+2019-01-14 18:53:17 ::1 GET /Home/CustomerList - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 683
+2019-01-14 18:53:23 ::1 GET /Home/EditCustomer - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/Home/CustomerList 404 0 0 27
+2019-01-14 18:53:26 ::1 GET /Home/DetailsCustomer - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/Home/CustomerList 404 0 0 12
+2019-01-14 18:53:28 ::1 GET /Home/DeleteCustomer - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/Home/CustomerList 404 0 0 2
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-01-14 20:42:33
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-01-14 20:42:33 ::1 GET /Home/AddCustomer - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 12200
+2019-01-14 20:42:40 ::1 GET /Home/ViewCustomer +Name=kgbasjfgbhkabdjs&Telephone= 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/Home/AddCustomer 500 0 0 60
+2019-01-14 20:44:22 ::1 GET /Home/AddCustomer - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 5017
+2019-01-14 20:44:26 ::1 GET /Home/ViewCustomer +Name=213342fcs&Telephone= 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/Home/AddCustomer 200 0 0 47

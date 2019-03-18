@@ -1,0 +1,53 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-01-24 19:03:22
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-01-24 19:03:22 ::1 DEBUG / - 52867 - ::1 - - 200 0 64 23654
+2019-01-24 19:03:24 ::1 GET / - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 20650
+2019-01-24 19:03:24 ::1 GET /js/site.js v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 200 0 0 208
+2019-01-24 19:03:24 ::1 GET /images/banner2.svg - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 200 0 0 243
+2019-01-24 19:03:24 ::1 GET /images/banner1.svg - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 200 0 0 244
+2019-01-24 19:03:24 ::1 GET /images/banner3.svg - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 200 0 0 220
+2019-01-24 19:03:24 ::1 GET /css/site.css - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 200 0 0 365
+2019-01-24 19:03:24 ::1 GET /lib/bootstrap/dist/js/bootstrap.js - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 200 0 0 369
+2019-01-24 19:03:24 ::1 GET /lib/bootstrap/dist/css/bootstrap.css - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 200 0 0 440
+2019-01-24 19:03:24 ::1 GET /lib/jquery/dist/jquery.js - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 200 0 0 479
+2019-01-24 19:03:24 ::1 GET /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/lib/bootstrap/dist/css/bootstrap.css 200 0 0 277
+2019-01-24 19:03:24 ::1 GET /favicon.ico - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 200 0 0 26
+2019-01-24 19:03:54 ::1 GET / - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 200 0 0 148
+2019-01-24 19:03:54 ::1 GET /images/banner3.svg - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 304 0 0 218
+2019-01-24 19:03:54 ::1 GET /css/site.css - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 304 0 0 225
+2019-01-24 19:03:54 ::1 GET /lib/jquery/dist/jquery.js - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 304 0 0 225
+2019-01-24 19:03:54 ::1 GET /images/banner1.svg - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 304 0 0 225
+2019-01-24 19:03:54 ::1 GET /images/banner2.svg - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 304 0 0 236
+2019-01-24 19:03:54 ::1 GET /lib/bootstrap/dist/js/bootstrap.js - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 304 0 0 237
+2019-01-24 19:03:54 ::1 GET /lib/bootstrap/dist/css/bootstrap.css - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 304 0 0 237
+2019-01-24 19:03:54 ::1 GET /js/site.js v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 304 0 0 404
+2019-01-24 19:03:54 ::1 GET /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/lib/bootstrap/dist/css/bootstrap.css 304 0 0 111
+2019-01-24 19:03:55 ::1 GET / - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 200 0 0 138
+2019-01-24 19:03:56 ::1 GET /Home/About - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/ 200 0 0 79
+2019-01-24 19:03:58 ::1 GET /Home/Contact - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/Home/About 200 0 0 95
+2019-01-24 19:04:02 ::1 GET /Home/About - 44345 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44345/Home/Contact 200 0 0 71
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-01-24 21:27:56
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-01-24 21:27:56 ::1 DEBUG / - 65271 - ::1 - - 200 0 64 22408
+2019-01-24 21:27:58 ::1 GET / - 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 20481
+2019-01-24 21:27:58 ::1 GET /css/site.css - 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44351/ 200 0 0 459
+2019-01-24 21:27:58 ::1 GET /js/site.js v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44351/ 200 0 0 459
+2019-01-24 21:27:58 ::1 GET /images/banner2.svg - 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44351/ 200 0 0 469
+2019-01-24 21:27:58 ::1 GET /images/banner1.svg - 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44351/ 200 0 0 469
+2019-01-24 21:27:58 ::1 GET /images/banner3.svg - 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44351/ 200 0 0 619
+2019-01-24 21:27:58 ::1 GET /lib/bootstrap/dist/js/bootstrap.js - 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44351/ 200 0 0 732
+2019-01-24 21:27:58 ::1 GET /lib/bootstrap/dist/css/bootstrap.css - 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44351/ 200 0 0 778
+2019-01-24 21:27:58 ::1 GET /lib/jquery/dist/jquery.js - 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44351/ 200 0 0 837
+2019-01-24 21:27:58 ::1 GET /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 - 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44351/lib/bootstrap/dist/css/bootstrap.css 200 0 0 108
+2019-01-24 21:27:59 ::1 GET /favicon.ico - 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44351/ 200 0 0 11
+2019-01-24 21:28:22 ::1 GET /Home/Contact - 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44351/ 200 0 0 134
+2019-01-24 21:28:22 ::1 GET /lib/jquery/dist/jquery.js - 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44351/Home/Contact 304 0 0 176
+2019-01-24 21:28:22 ::1 GET /js/site.js v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44351/Home/Contact 304 0 0 174
+2019-01-24 21:28:22 ::1 GET /lib/bootstrap/dist/css/bootstrap.css - 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44351/Home/Contact 304 0 0 197
+2019-01-24 21:28:22 ::1 GET /lib/bootstrap/dist/js/bootstrap.js - 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44351/Home/Contact 304 0 0 190
+2019-01-24 21:28:22 ::1 GET /css/site.css - 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44351/Home/Contact 304 0 0 228
+2019-01-24 21:28:24 ::1 GET /Home/About - 44351 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 https://localhost:44351/Home/Contact 200 0 0 95

@@ -1,0 +1,16 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-01-10 21:55:15
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-01-10 21:55:15 ::1 GET / - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 14856
+2019-01-10 21:55:15 ::1 GET /Content/bootstrap.css - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/ 200 0 0 37
+2019-01-10 21:55:15 ::1 GET /Content/site.css - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/ 200 0 0 41
+2019-01-10 21:55:15 ::1 GET /Scripts/modernizr-2.8.3.js - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/ 200 0 0 45
+2019-01-10 21:55:15 ::1 GET /Scripts/bootstrap.js - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/ 200 0 0 57
+2019-01-10 21:55:15 ::1 GET /Scripts/jquery-3.3.1.js - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/ 200 0 0 65
+2019-01-10 21:55:15 ::1 GET /favicon.ico - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 http://localhost:62062/ 200 0 0 5
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-01-10 21:56:10
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-01-10 21:56:10 ::1 GET / - 62062 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/71.0.3578.98+Safari/537.36 - 200 0 0 2636

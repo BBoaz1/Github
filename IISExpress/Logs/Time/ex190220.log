@@ -1,0 +1,550 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 15:25:10
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 15:25:10 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 9982
+2019-02-20 15:25:15 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 12014
+2019-02-20 15:25:15 ::1 GET /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/lib/bootstrap/dist/css/bootstrap.css 304 0 0 40
+2019-02-20 15:25:15 ::1 GET /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/lib/bootstrap/dist/css/bootstrap.css 304 0 0 87
+2019-02-20 15:25:15 ::1 GET /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/lib/bootstrap/dist/css/bootstrap.css 304 0 0 94
+2019-02-20 15:25:21 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 500 0 0 2357
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 15:27:43
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 15:27:43 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8749
+2019-02-20 15:27:43 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 6274
+2019-02-20 15:27:49 ::1 GET /Customers - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 1557
+2019-02-20 15:27:50 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/Customers 200 0 0 682
+2019-02-20 15:28:02 ::1 GET /EmployeeTimes/Edit/11 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 1201
+2019-02-20 15:28:02 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/11 404 0 0 30
+2019-02-20 15:28:02 ::1 GET /Content/themes/base/jquery-ui.min.css - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/11 404 0 0 35
+2019-02-20 15:28:02 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/11 404 0 0 34
+2019-02-20 15:28:02 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/11 404 0 0 28
+2019-02-20 15:28:02 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/11 404 0 0 17
+2019-02-20 15:28:02 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/11 404 0 0 15
+2019-02-20 15:28:02 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/11 404 0 0 11
+2019-02-20 15:28:07 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/Customers 200 0 0 312
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 15:35:06
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 15:35:06 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8484
+2019-02-20 15:35:07 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7155
+2019-02-20 15:35:10 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 1933
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 15:35:58
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 15:35:58 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8668
+2019-02-20 15:36:00 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7600
+2019-02-20 15:36:03 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 2061
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 15:37:27
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 15:37:27 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8682
+2019-02-20 15:37:28 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7115
+2019-02-20 15:37:31 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 2030
+2019-02-20 15:37:34 ::1 GET /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 882
+2019-02-20 15:37:34 ::1 GET /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 304 0 0 38
+2019-02-20 15:37:34 ::1 GET /lib/jquery-validation/dist/jquery.validate.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 304 0 0 43
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 15:45:24
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 15:45:24 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 9233
+2019-02-20 15:45:25 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7620
+2019-02-20 15:45:29 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 2029
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 16:00:29
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 16:00:29 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8650
+2019-02-20 16:00:34 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 10418
+2019-02-20 16:00:34 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 304 0 0 39
+2019-02-20 16:00:38 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 780
+2019-02-20 16:00:41 ::1 GET /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 882
+2019-02-20 16:01:39 ::1 POST /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 502 3 12030 20863
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 16:03:10
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 16:03:10 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8990
+2019-02-20 16:03:11 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7524
+2019-02-20 16:03:16 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 1906
+2019-02-20 16:03:18 ::1 GET /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 857
+2019-02-20 16:03:38 ::1 POST /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 302 0 0 722
+2019-02-20 16:03:38 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 200 0 0 278
+2019-02-20 16:04:14 ::1 GET /EmployeeTimes/Edit/15 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 962
+2019-02-20 16:04:14 ::1 GET /Content/themes/base/jquery-ui.min.css - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 37
+2019-02-20 16:04:14 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 53
+2019-02-20 16:04:14 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 56
+2019-02-20 16:04:14 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 11
+2019-02-20 16:04:14 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 14
+2019-02-20 16:04:14 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 12
+2019-02-20 16:04:19 ::1 POST /EmployeeTimes/Edit/15 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 302 0 0 373
+2019-02-20 16:04:19 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 200 0 0 322
+2019-02-20 16:04:24 ::1 GET /EmployeeTimes/Edit/15 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 781
+2019-02-20 16:04:24 ::1 GET /Content/themes/base/jquery-ui.min.css - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 59
+2019-02-20 16:04:24 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 58
+2019-02-20 16:04:24 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 72
+2019-02-20 16:04:24 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 14
+2019-02-20 16:04:24 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 32
+2019-02-20 16:04:24 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 19
+2019-02-20 16:04:34 ::1 POST /EmployeeTimes/Edit/15 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 302 0 0 379
+2019-02-20 16:04:34 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 200 0 0 315
+2019-02-20 16:04:57 ::1 GET /EmployeeTimes/Edit/15 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 779
+2019-02-20 16:04:57 ::1 GET /Content/themes/base/jquery-ui.min.css - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 90
+2019-02-20 16:04:57 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 102
+2019-02-20 16:04:57 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 132
+2019-02-20 16:04:57 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 17
+2019-02-20 16:04:57 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 13
+2019-02-20 16:04:57 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 19
+2019-02-20 16:05:10 ::1 POST /EmployeeTimes/Edit/15 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 302 0 0 426
+2019-02-20 16:05:10 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 200 0 0 279
+2019-02-20 16:05:14 ::1 GET /EmployeeTimes/Edit/15 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 761
+2019-02-20 16:05:14 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 54
+2019-02-20 16:05:14 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 67
+2019-02-20 16:05:14 ::1 GET /Content/themes/base/jquery-ui.min.css - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 89
+2019-02-20 16:05:14 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 20
+2019-02-20 16:05:14 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 35
+2019-02-20 16:05:14 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 12
+2019-02-20 16:05:14 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 13
+2019-02-20 16:05:22 ::1 POST /EmployeeTimes/Edit/15 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 302 0 0 325
+2019-02-20 16:05:22 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 200 0 0 243
+2019-02-20 16:05:27 ::1 GET /EmployeeTimes/Edit/15 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 809
+2019-02-20 16:05:27 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 70
+2019-02-20 16:05:27 ::1 GET /Content/themes/base/jquery-ui.min.css - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 80
+2019-02-20 16:05:27 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 84
+2019-02-20 16:05:27 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 18
+2019-02-20 16:05:27 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 8
+2019-02-20 16:05:27 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 404 0 0 7
+2019-02-20 16:05:42 ::1 POST /EmployeeTimes/Edit/15 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 302 0 0 317
+2019-02-20 16:05:42 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/15 200 0 0 244
+2019-02-20 16:05:45 ::1 GET /EmployeeTimes/Delete/15 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 327
+2019-02-20 16:05:47 ::1 POST /EmployeeTimes/Delete/15 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Delete/15 302 0 0 529
+2019-02-20 16:05:47 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Delete/15 200 0 0 239
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 16:10:18
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 16:10:18 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8972
+2019-02-20 16:10:19 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7967
+2019-02-20 16:10:23 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 2362
+2019-02-20 16:10:30 ::1 GET /EmployeeTimes/Delete/11 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 453
+2019-02-20 16:10:32 ::1 POST /EmployeeTimes/Delete/11 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Delete/11 302 0 0 814
+2019-02-20 16:10:32 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Delete/11 200 0 0 294
+2019-02-20 16:10:34 ::1 GET /EmployeeTimes/Delete/13 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 372
+2019-02-20 16:10:36 ::1 POST /EmployeeTimes/Delete/13 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Delete/13 302 0 0 728
+2019-02-20 16:10:36 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Delete/13 200 0 0 290
+2019-02-20 16:10:37 ::1 GET /EmployeeTimes/Delete/14 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 323
+2019-02-20 16:10:39 ::1 POST /EmployeeTimes/Delete/14 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Delete/14 302 0 0 567
+2019-02-20 16:10:39 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Delete/14 200 0 0 267
+2019-02-20 16:10:40 ::1 GET /EmployeeTimes/Delete/8 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 280
+2019-02-20 16:10:41 ::1 POST /EmployeeTimes/Delete/8 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Delete/8 302 0 0 589
+2019-02-20 16:10:41 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Delete/8 200 0 0 312
+2019-02-20 16:10:44 ::1 GET /EmployeeTimes/Delete/12 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 286
+2019-02-20 16:10:46 ::1 POST /EmployeeTimes/Delete/12 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Delete/12 302 0 0 538
+2019-02-20 16:10:46 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Delete/12 200 0 0 254
+2019-02-20 16:10:49 ::1 GET /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 909
+2019-02-20 16:11:03 ::1 POST /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 302 0 0 446
+2019-02-20 16:11:03 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 200 0 0 218
+2019-02-20 16:11:26 ::1 GET /EmployeeTimes/Edit/17 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 902
+2019-02-20 16:11:26 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/17 404 0 0 40
+2019-02-20 16:11:26 ::1 GET /Content/themes/base/jquery-ui.min.css - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/17 404 0 0 46
+2019-02-20 16:11:26 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/17 404 0 0 46
+2019-02-20 16:11:26 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/17 404 0 0 17
+2019-02-20 16:11:26 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/17 404 0 0 14
+2019-02-20 16:11:26 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/17 404 0 0 14
+2019-02-20 16:11:43 ::1 POST /EmployeeTimes/Edit/17 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/17 302 0 0 1368
+2019-02-20 16:11:43 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/17 200 0 0 700
+2019-02-20 16:11:51 ::1 GET /EmployeeTimes/Delete/17 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 237
+2019-02-20 16:11:53 ::1 POST /EmployeeTimes/Delete/17 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Delete/17 302 0 0 482
+2019-02-20 16:11:53 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Delete/17 200 0 0 273
+2019-02-20 16:15:29 ::1 GET /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 914
+2019-02-20 16:16:00 ::1 POST /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 302 0 0 356
+2019-02-20 16:16:00 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 200 0 0 269
+2019-02-20 16:16:05 ::1 GET /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 607
+2019-02-20 16:16:29 ::1 POST /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 302 0 0 340
+2019-02-20 16:16:29 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 200 0 0 222
+2019-02-20 16:16:35 ::1 GET /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 575
+2019-02-20 16:17:02 ::1 POST /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 302 0 0 372
+2019-02-20 16:17:02 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 200 0 0 323
+2019-02-20 16:17:17 ::1 GET /EmployeeTimes CustomerName=&ProjectName=Daveward&UserName= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 288
+2019-02-20 16:17:26 ::1 GET /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=Daveward&UserName= 200 0 0 568
+2019-02-20 16:17:51 ::1 POST /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 302 0 0 352
+2019-02-20 16:17:51 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 200 0 0 241
+2019-02-20 16:17:55 ::1 GET /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 609
+2019-02-20 16:18:51 ::1 POST /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 302 0 0 397
+2019-02-20 16:18:51 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 200 0 0 289
+2019-02-20 16:18:55 ::1 GET /EmployeeTimes SortOrder=CustomerName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 333
+2019-02-20 16:18:58 ::1 GET /EmployeeTimes SortOrder=ProjectName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=CustomerName 200 0 0 303
+2019-02-20 16:19:08 ::1 GET /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=ProjectName 200 0 0 561
+2019-02-20 16:19:46 ::1 POST /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 302 0 0 326
+2019-02-20 16:19:46 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 200 0 0 269
+2019-02-20 16:19:50 ::1 GET /EmployeeTimes SortOrder=UserName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 359
+2019-02-20 16:19:54 ::1 GET /EmployeeTimes SortOrder=ProjectName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=UserName 200 0 0 281
+2019-02-20 16:19:57 ::1 GET /EmployeeTimes SortOrder=CustomerName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=ProjectName 200 0 0 300
+2019-02-20 16:19:58 ::1 GET /EmployeeTimes SortOrder=ProjectName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=CustomerName 200 0 0 254
+2019-02-20 16:20:27 ::1 GET /EmployeeTimes CustomerName=&ProjectName=Chenal+Parkway&UserName= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=ProjectName 200 0 0 244
+2019-02-20 16:20:29 ::1 GET /EmployeeTimes SortOrder=CustomerName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=Chenal+Parkway&UserName= 200 0 0 285
+2019-02-20 16:20:35 ::1 GET /EmployeeTimes CustomerName=&ProjectName=Chenal+Parkway&UserName= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=CustomerName 200 0 0 262
+2019-02-20 16:20:41 ::1 GET /EmployeeTimes SortOrder=CustomerName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=Chenal+Parkway&UserName= 200 0 0 275
+2019-02-20 16:20:48 ::1 GET /EmployeeTimes SortOrder=UserName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=CustomerName 200 0 0 261
+2019-02-20 16:20:51 ::1 GET /EmployeeTimes SortOrder=UserName_desc 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=UserName 200 0 0 300
+2019-02-20 16:20:57 ::1 GET /EmployeeTimes SortOrder=ProjectName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=CustomerName 200 0 0 308
+2019-02-20 16:24:27 ::1 GET /EmployeeTimes SortOrder=UserName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=ProjectName 200 0 0 575
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 16:27:53
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 16:27:53 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8203
+2019-02-20 16:27:54 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 6943
+2019-02-20 16:27:57 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 2029
+2019-02-20 16:28:02 ::1 GET /EmployeeTimes/Edit/16 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 1097
+2019-02-20 16:28:02 ::1 GET /Content/themes/base/jquery-ui.min.css - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/16 404 0 0 39
+2019-02-20 16:28:02 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/16 404 0 0 51
+2019-02-20 16:28:02 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/16 404 0 0 52
+2019-02-20 16:28:02 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/16 404 0 0 30
+2019-02-20 16:28:02 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/16 404 0 0 16
+2019-02-20 16:28:10 ::1 POST /EmployeeTimes/Edit/16 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/16 302 0 0 565
+2019-02-20 16:28:10 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/16 200 0 0 243
+2019-02-20 16:29:12 ::1 GET /EmployeeTimes/Details/18 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 324
+2019-02-20 16:30:22 ::1 GET /EmployeeTimes/Details/18 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 2565
+2019-02-20 16:30:22 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Details/18 200 0 0 37
+2019-02-20 16:30:36 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Details/18 200 0 0 1426
+2019-02-20 16:30:54 ::1 GET /EmployeeTimes/Details/20 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 279
+2019-02-20 16:31:46 ::1 GET /EmployeeTimes/Details/20 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 571
+2019-02-20 16:31:46 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Details/20 200 0 0 17
+2019-02-20 16:32:01 ::1 GET /Admin - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Details/20 200 0 0 304
+2019-02-20 16:32:03 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/Admin 200 0 0 249
+2019-02-20 16:32:03 ::1 GET /Projects - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 326
+2019-02-20 16:32:06 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/Projects 200 0 0 38
+2019-02-20 16:32:06 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 42
+2019-02-20 16:32:08 ::1 GET /Customers - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 321
+2019-02-20 16:32:10 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/Customers 200 0 0 1389
+2019-02-20 16:32:12 ::1 GET /Admin - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/Roles 200 0 0 239
+2019-02-20 16:32:15 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/Admin 200 0 0 424
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 16:49:36
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 16:49:36 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 13123
+2019-02-20 16:49:37 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 11076
+2019-02-20 16:50:13 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 2884
+2019-02-20 16:50:18 ::1 GET /EmployeeTimes SortOrder=HoursName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 353
+2019-02-20 16:50:21 ::1 GET /EmployeeTimes SortOrder=HoursName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=HoursName 200 0 0 279
+2019-02-20 16:50:22 ::1 GET /EmployeeTimes SortOrder=HoursName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=HoursName 200 0 0 253
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 16:51:34
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 16:51:34 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8957
+2019-02-20 16:51:35 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7539
+2019-02-20 16:51:39 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 2065
+2019-02-20 16:51:41 ::1 GET /EmployeeTimes SortOrder=Hours 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 347
+2019-02-20 16:51:42 ::1 GET /EmployeeTimes SortOrder=Hours_desc 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=Hours 200 0 0 320
+2019-02-20 16:51:43 ::1 GET /EmployeeTimes SortOrder=Hours 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=Hours_desc 200 0 0 274
+2019-02-20 16:51:44 ::1 GET /EmployeeTimes SortOrder=Hours_desc 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=Hours 200 0 0 257
+2019-02-20 16:52:47 ::1 GET /EmployeeTimes CustomerName=&ProjectName=Chenal+Parkway&UserName= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=Hours_desc 200 0 0 509
+2019-02-20 16:53:04 ::1 GET /EmployeeTimes CustomerName=&ProjectName=Chenal+Parkway&UserName=jessica%40redpointegroup.com 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=Chenal+Parkway&UserName= 200 0 0 505
+2019-02-20 17:04:53 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=Chenal+Parkway&UserName=jessica%40redpointegroup.com 200 0 0 1643
+2019-02-20 17:05:04 ::1 GET /EmployeeTimes SortOrder=Hours 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=&UserName= 200 0 0 319
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 18:14:12
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 18:14:12 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8876
+2019-02-20 18:14:16 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 10510
+2019-02-20 18:14:18 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 500 0 0 501
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 18:18:24
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 18:18:24 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8828
+2019-02-20 18:18:25 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7730
+2019-02-20 18:18:28 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 500 0 0 813
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 18:20:09
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 18:20:09 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8165
+2019-02-20 18:20:11 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7136
+2019-02-20 18:20:13 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 500 0 0 989
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 18:34:36
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 18:34:36 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 9231
+2019-02-20 18:34:37 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7903
+2019-02-20 18:34:40 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 500 0 0 885
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 18:37:35
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 18:37:35 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8533
+2019-02-20 18:37:37 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7561
+2019-02-20 18:37:40 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 1959
+2019-02-20 18:39:28 ::1 GET /EmployeeTimes/Edit/19 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 1646
+2019-02-20 18:39:28 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/19 404 0 0 50
+2019-02-20 18:39:28 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/19 404 0 0 47
+2019-02-20 18:39:28 ::1 GET /Content/themes/base/jquery-ui.min.css - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/19 404 0 0 51
+2019-02-20 18:39:28 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/19 404 0 0 58
+2019-02-20 18:39:28 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/19 404 0 0 13
+2019-02-20 18:39:28 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/19 404 0 0 44
+2019-02-20 18:39:28 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/19 404 0 0 11
+2019-02-20 18:39:37 ::1 POST /EmployeeTimes/Edit/19 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/19 302 0 0 684
+2019-02-20 18:39:37 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/19 200 0 0 349
+2019-02-20 18:39:42 ::1 GET /EmployeeTimes/Edit/20 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 876
+2019-02-20 18:39:42 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/20 404 0 0 42
+2019-02-20 18:39:42 ::1 GET /Content/themes/base/jquery-ui.min.css - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/20 404 0 0 47
+2019-02-20 18:39:42 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/20 404 0 0 71
+2019-02-20 18:39:42 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/20 404 0 0 29
+2019-02-20 18:39:42 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/20 404 0 0 14
+2019-02-20 18:39:42 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/20 404 0 0 14
+2019-02-20 18:39:42 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/20 404 0 0 15
+2019-02-20 18:39:48 ::1 POST /EmployeeTimes/Edit/20 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/20 302 0 0 406
+2019-02-20 18:39:48 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/20 200 0 0 730
+2019-02-20 18:39:53 ::1 GET /EmployeeTimes/Edit/22 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 1412
+2019-02-20 18:39:53 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/22 404 0 0 29
+2019-02-20 18:39:53 ::1 GET /Content/themes/base/jquery-ui.min.css - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/22 404 0 0 31
+2019-02-20 18:39:53 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/22 404 0 0 26
+2019-02-20 18:39:53 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/22 404 0 0 18
+2019-02-20 18:39:53 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/22 404 0 0 10
+2019-02-20 18:39:53 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/22 404 0 0 17
+2019-02-20 18:39:53 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/22 404 0 0 11
+2019-02-20 18:39:57 ::1 POST /EmployeeTimes/Edit/22 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/22 302 0 0 414
+2019-02-20 18:39:57 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/22 200 0 0 283
+2019-02-20 18:40:01 ::1 GET /EmployeeTimes/Edit/23 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 1304
+2019-02-20 18:40:01 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/23 404 0 0 31
+2019-02-20 18:40:01 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/23 404 0 0 32
+2019-02-20 18:40:01 ::1 GET /Content/themes/base/jquery-ui.min.css - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/23 404 0 0 38
+2019-02-20 18:40:01 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/23 404 0 0 29
+2019-02-20 18:40:01 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/23 404 0 0 17
+2019-02-20 18:40:01 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/23 404 0 0 23
+2019-02-20 18:40:01 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/23 404 0 0 9
+2019-02-20 18:40:10 ::1 POST /EmployeeTimes/Edit/23 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/23 302 0 0 435
+2019-02-20 18:40:10 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/23 200 0 0 301
+2019-02-20 18:41:01 ::1 GET /EmployeeTimes DateRange=&StartDate=2019-05-20&EndDate=2019-07-20&CustomerName=&ProjectName=&UserName= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 392
+2019-02-20 18:41:03 ::1 GET /EmployeeTimes DateRange=&StartDate=&EndDate=&CustomerName=&ProjectName=&UserName= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?DateRange=&StartDate=2019-05-20&EndDate=2019-07-20&CustomerName=&ProjectName=&UserName= 200 0 0 320
+2019-02-20 18:44:30 ::1 GET /EmployeeTimes DateRange=&StartDate=&EndDate=&CustomerName=&ProjectName=&UserName= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?DateRange=&StartDate=2019-05-20&EndDate=2019-07-20&CustomerName=&ProjectName=&UserName= 200 0 0 3780
+2019-02-20 18:44:30 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?DateRange=&StartDate=&EndDate=&CustomerName=&ProjectName=&UserName= 200 0 0 44
+2019-02-20 18:44:50 ::1 GET /EmployeeTimes DateRange=&StartDate=&EndDate=&CustomerName=&ProjectName=&UserName= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?DateRange=&StartDate=2019-05-20&EndDate=2019-07-20&CustomerName=&ProjectName=&UserName= 200 0 0 947
+2019-02-20 18:44:50 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?DateRange=&StartDate=&EndDate=&CustomerName=&ProjectName=&UserName= 200 0 0 30
+2019-02-20 18:44:51 ::1 GET /EmployeeTimes DateRange=&StartDate=&EndDate=&CustomerName=&ProjectName=&UserName= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?DateRange=&StartDate=2019-05-20&EndDate=2019-07-20&CustomerName=&ProjectName=&UserName= 200 0 0 252
+2019-02-20 18:44:51 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?DateRange=&StartDate=&EndDate=&CustomerName=&ProjectName=&UserName= 200 0 0 44
+2019-02-20 18:44:55 ::1 GET /EmployeeTimes DateRange=&StartDate=&EndDate=&CustomerName=&ProjectName=&UserName= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?DateRange=&StartDate=2019-05-20&EndDate=2019-07-20&CustomerName=&ProjectName=&UserName= 200 0 0 710
+2019-02-20 18:44:55 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?DateRange=&StartDate=&EndDate=&CustomerName=&ProjectName=&UserName= 200 0 0 31
+2019-02-20 18:45:51 ::1 GET /EmployeeTimes DateRange=&StartDate=&EndDate=&CustomerName=&ProjectName=&UserName= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?DateRange=&StartDate=2019-05-20&EndDate=2019-07-20&CustomerName=&ProjectName=&UserName= 200 0 0 632
+2019-02-20 18:45:51 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?DateRange=&StartDate=&EndDate=&CustomerName=&ProjectName=&UserName= 200 0 0 24
+2019-02-20 18:46:03 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?DateRange=&StartDate=&EndDate=&CustomerName=&ProjectName=&UserName= 200 0 0 302
+2019-02-20 18:46:47 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?DateRange=&StartDate=&EndDate=&CustomerName=&ProjectName=&UserName= 200 0 0 572
+2019-02-20 18:46:47 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 200 0 0 15
+2019-02-20 18:47:10 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=2019-06-20&EndDate=2019-07-20 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 200 0 0 322
+2019-02-20 18:47:12 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=&UserName=&StartDate=2019-06-20&EndDate=2019-07-20 200 0 0 261
+2019-02-20 18:48:36 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=2019-05-20&EndDate=2019-06-20 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 200 0 0 592
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 18:54:47
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 18:54:47 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8775
+2019-02-20 18:54:48 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7255
+2019-02-20 18:56:04 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 2034
+2019-02-20 18:56:07 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 393
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 19:06:50
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 19:06:50 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8397
+2019-02-20 19:06:51 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7379
+2019-02-20 19:06:53 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 500 0 0 906
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 19:10:26
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 19:10:26 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 12349
+2019-02-20 19:10:27 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 10827
+2019-02-20 19:10:30 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 500 0 0 898
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 19:12:03
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 19:12:03 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8379
+2019-02-20 19:12:05 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7421
+2019-02-20 19:12:40 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 2026
+2019-02-20 19:13:08 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=2019-02-25&EndDate=2019-05-29 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 379
+2019-02-20 19:26:41 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 7887
+2019-02-20 19:26:44 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 9539
+2019-02-20 19:26:58 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 867
+2019-02-20 19:27:00 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 335
+2019-02-20 19:27:00 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 200 0 0 266
+2019-02-20 19:27:11 ::1 GET /EmployeeTimes SortOrder=Hours 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 200 0 0 356
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 19:55:23
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 19:55:23 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8380
+2019-02-20 19:55:24 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 6820
+2019-02-20 19:55:26 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 500 0 0 815
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 19:57:46
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 19:57:46 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8138
+2019-02-20 19:57:49 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 9372
+2019-02-20 19:57:51 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 500 0 0 503
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 19:58:36
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 19:58:36 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8153
+2019-02-20 19:58:36 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 6909
+2019-02-20 19:58:40 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 500 0 0 825
+2019-02-20 19:59:06 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8851
+2019-02-20 19:59:07 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7552
+2019-02-20 19:59:09 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 500 0 0 843
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 20:00:34
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 20:00:34 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8374
+2019-02-20 20:00:35 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 6962
+2019-02-20 20:00:38 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 2245
+2019-02-20 20:01:08 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=2019-02-20&EndDate=2019-05-05 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 383
+2019-02-20 20:01:15 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=&UserName=&StartDate=2019-02-20&EndDate=2019-05-05 200 0 0 283
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 20:03:09
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 20:03:09 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8101
+2019-02-20 20:03:10 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 6947
+2019-02-20 20:03:12 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 500 0 0 894
+2019-02-20 20:04:23 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8427
+2019-02-20 20:04:23 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 6959
+2019-02-20 20:08:43 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 500 0 0 257416
+2019-02-20 20:08:48 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 65
+2019-02-20 20:09:14 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 502 3 12030 24620
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 20:19:27
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 20:19:27 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8417
+2019-02-20 20:19:28 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 6701
+2019-02-20 20:19:35 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 1614
+2019-02-20 20:19:56 ::1 GET /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 994
+2019-02-20 20:20:16 ::1 POST /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 302 0 0 675
+2019-02-20 20:20:16 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Create 200 0 0 279
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 20:21:55
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 20:21:55 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8333
+2019-02-20 20:21:56 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7352
+2019-02-20 20:21:59 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 1630
+2019-02-20 20:22:02 ::1 GET /EmployeeTimes/Create - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 1038
+2019-02-20 20:22:05 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 233
+2019-02-20 20:22:40 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8435
+2019-02-20 20:22:41 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7582
+2019-02-20 20:23:48 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 502 3 12030 65157
+2019-02-20 20:24:00 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8374
+2019-02-20 20:24:01 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 400 0 64 7382
+2019-02-20 20:24:34 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8184
+2019-02-20 20:24:34 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7132
+2019-02-20 20:27:18 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 400 0 64 160449
+2019-02-20 20:27:18 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 502 3 12030 9974
+2019-02-20 20:28:15 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8648
+2019-02-20 20:28:19 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 10225
+2019-02-20 20:29:55 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 502 3 12030 78833
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 20:31:21
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 20:31:21 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8581
+2019-02-20 20:31:23 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7522
+2019-02-20 20:31:29 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 4716
+2019-02-20 20:32:29 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/24 404 0 0 32
+2019-02-20 20:32:29 ::1 GET /Content/themes/base/jquery-ui.min.css - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/24 404 0 0 39
+2019-02-20 20:32:29 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/24 404 0 0 42
+2019-02-20 20:32:29 ::1 GET /EmployeeTimes/Edit/24 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 1437
+2019-02-20 20:32:29 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/24 404 0 0 15
+2019-02-20 20:32:29 ::1 GET /Scripts/jquery-3.1.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/24 404 0 0 30
+2019-02-20 20:32:29 ::1 GET /Scripts/jquery-ui-1.12.1.min.js - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/24 404 0 0 19
+2019-02-20 20:32:34 ::1 POST /EmployeeTimes/Edit/24 - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/24 302 0 0 563
+2019-02-20 20:32:40 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/24 200 0 0 6073
+2019-02-20 20:37:12 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes/Edit/24 502 3 12030 251814
+2019-02-20 20:37:14 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 502 3 64 1477
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 20:38:28
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 20:38:28 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8677
+2019-02-20 20:38:30 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 8338
+2019-02-20 20:38:30 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 44
+2019-02-20 20:39:15 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 502 3 12030 31007
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 20:50:52
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 20:50:52 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 9412
+2019-02-20 20:50:53 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 8198
+2019-02-20 20:51:25 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 502 3 12030 30553
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 20:53:20
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 20:53:20 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 9070
+2019-02-20 20:53:21 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 8084
+2019-02-20 20:53:49 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 400 0 64 17237
+2019-02-20 20:53:49 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 7793
+2019-02-20 20:54:34 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=2019-07-01&EndDate=2019-02-20 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 262
+2019-02-20 20:54:36 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=&UserName=&StartDate=2019-07-01&EndDate=2019-02-20 200 0 0 292
+2019-02-20 20:54:49 ::1 GET /EmployeeTimes SortOrder=Hours 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 200 0 0 314
+2019-02-20 20:54:50 ::1 GET /EmployeeTimes SortOrder=CustomerName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=Hours 200 0 0 256
+2019-02-20 20:54:51 ::1 GET /EmployeeTimes SortOrder=ProjectName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=CustomerName 200 0 0 424
+2019-02-20 20:54:51 ::1 GET /EmployeeTimes SortOrder=UserName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=ProjectName 200 0 0 353
+2019-02-20 20:55:41 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=2019-02-04&EndDate=2019-02-21 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=UserName 502 3 12030 19732
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 20:56:05
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 20:56:05 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8878
+2019-02-20 20:56:06 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7931
+2019-02-20 20:56:17 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 502 3 12030 9159
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 20:57:18
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 20:57:18 ::1 DEBUG / - 50267 - ::1 - - 200 0 64 8362
+2019-02-20 20:57:19 ::1 GET / - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 - 200 0 0 7238
+2019-02-20 20:57:24 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/ 200 0 0 1954
+2019-02-20 20:57:33 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=2019-02-11&EndDate=2019-02-28 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 353
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 21:43:19
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 21:43:19 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=2019-02-20&EndDate= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=&UserName=&StartDate=2019-02-11&EndDate=2019-02-28 400 0 64 1810
+2019-02-20 21:43:19 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=2019-02-20&EndDate= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=&UserName=&StartDate=2019-02-11&EndDate=2019-02-28 200 0 0 1437
+2019-02-20 21:49:22 ::1 GET /Admin - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=&UserName=&StartDate=2019-02-20&EndDate= 200 0 0 749
+2019-02-20 21:49:25 ::1 GET /Roles - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/Admin 200 0 0 820
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-02-20 22:10:20
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-02-20 22:10:20 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/Roles 200 0 0 1416
+2019-02-20 22:22:47 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/Roles 200 0 0 3666
+2019-02-20 22:22:47 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 42
+2019-02-20 22:23:06 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/Roles 200 0 0 607
+2019-02-20 22:23:06 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 16
+2019-02-20 22:23:13 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/Roles 200 0 0 325
+2019-02-20 22:23:13 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 57
+2019-02-20 22:23:17 ::1 GET /EmployeeTimes - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/Roles 200 0 0 565
+2019-02-20 22:23:17 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 20
+2019-02-20 22:30:48 ::1 GET /EmployeeTimes SortOrder=UserName 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes 200 0 0 618
+2019-02-20 22:30:50 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=UserName 200 0 0 313
+2019-02-20 22:44:47 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=UserName 200 0 0 974
+2019-02-20 22:44:47 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 200 0 0 24
+2019-02-20 22:44:51 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=UserName 200 0 0 298
+2019-02-20 22:44:51 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 200 0 0 20
+2019-02-20 22:44:56 ::1 GET /EmployeeTimes CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?SortOrder=UserName 200 0 0 802
+2019-02-20 22:44:56 ::1 GET /favicon.ico - 44389 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/72.0.3626.109+Safari/537.36 https://localhost:44389/EmployeeTimes?CustomerName=&ProjectName=&UserName=&StartDate=&EndDate= 200 0 0 20
